@@ -1,4 +1,4 @@
-# app
+# Pokemon-Teams-App
 
 ## Project setup
 ```
