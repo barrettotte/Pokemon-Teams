@@ -2,6 +2,8 @@
 
 An introductory VueJS app to record Pokemon teams used across various games and/or playthroughs.
 
+This was made to mess around with VueJS and is not a production level application. It runs locally for a single user. I really just wanted to focus on frontend with this project.
+
 
 ## Project Goals
 * Introductory Vue Project
@@ -9,7 +11,7 @@ An introductory VueJS app to record Pokemon teams used across various games and/
 * CRUD functionality
 * External API usage with vue-resource
 * State management with vuex
-* Python backend (Flask) with Postgres datasource
+* Simple Python backend (Flask) with local Postgres DB on Pi
 
 
 ## Commands
@@ -22,3 +24,4 @@ An introductory VueJS app to record Pokemon teams used across various games and/
 * VueJS Guide - https://vuejs.org/v2/guide
 * VueJS API - https://vuejs.org/v2/api/
 * VueJS Config - https://cli.vuejs.org/config/
+* PokeAPI Reference - https://pokeapi.co/docs/v2
