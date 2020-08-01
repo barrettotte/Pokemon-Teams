@@ -14,6 +14,11 @@ This was made to mess around with VueJS and is not a production level applicatio
 * Simple Python backend (Flask) with local Postgres DB on Pi
 
 
+## Credit
+* The sprite images are © Nintendo/Creatures Inc./GAME FREAK Inc.
+* [PokeSprite Project](https://github.com/msikma/pokesprite)
+
+
 ## Commands
 * Install - ```sudo npm install -g @vue/cli```
 * Create Project - ```vue create <project_name>```
@@ -25,4 +30,3 @@ This was made to mess around with VueJS and is not a production level applicatio
 * VueJS API - https://vuejs.org/v2/api/
 * VueJS Config - https://cli.vuejs.org/config/
 * PokeAPI Reference - https://pokeapi.co/docs/v2
-* PokeSprite Project - https://github.com/msikma/pokesprite

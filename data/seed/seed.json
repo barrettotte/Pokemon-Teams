@@ -1,0 +1,11845 @@
+[
+  {
+    "dexno": "001",
+    "name": "Bulbasaur",
+    "slug": "bulbasaur",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "002",
+    "name": "Ivysaur",
+    "slug": "ivysaur",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "003",
+    "name": "Venusaur",
+    "slug": "venusaur",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "004",
+    "name": "Charmander",
+    "slug": "charmander",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "005",
+    "name": "Charmeleon",
+    "slug": "charmeleon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "006",
+    "name": "Charizard",
+    "slug": "charizard",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      },
+      {
+        "form": "mega-x",
+        "has_female": false
+      },
+      {
+        "form": "mega-y",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "007",
+    "name": "Squirtle",
+    "slug": "squirtle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "008",
+    "name": "Wartortle",
+    "slug": "wartortle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "009",
+    "name": "Blastoise",
+    "slug": "blastoise",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "010",
+    "name": "Caterpie",
+    "slug": "caterpie",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "011",
+    "name": "Metapod",
+    "slug": "metapod",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "012",
+    "name": "Butterfree",
+    "slug": "butterfree",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "013",
+    "name": "Weedle",
+    "slug": "weedle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "014",
+    "name": "Kakuna",
+    "slug": "kakuna",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "015",
+    "name": "Beedrill",
+    "slug": "beedrill",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "016",
+    "name": "Pidgey",
+    "slug": "pidgey",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "017",
+    "name": "Pidgeotto",
+    "slug": "pidgeotto",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "018",
+    "name": "Pidgeot",
+    "slug": "pidgeot",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "019",
+    "name": "Rattata",
+    "slug": "rattata",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "020",
+    "name": "Raticate",
+    "slug": "raticate",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      },
+      {
+        "form": "totem-alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "021",
+    "name": "Spearow",
+    "slug": "spearow",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "022",
+    "name": "Fearow",
+    "slug": "fearow",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "023",
+    "name": "Ekans",
+    "slug": "ekans",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "024",
+    "name": "Arbok",
+    "slug": "arbok",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "025",
+    "name": "Pikachu",
+    "slug": "pikachu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": true
+      },
+      {
+        "form": "alola-cap",
+        "has_female": true
+      },
+      {
+        "form": "belle",
+        "has_female": false
+      },
+      {
+        "form": "cosplay",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      },
+      {
+        "form": "hoenn-cap",
+        "has_female": true
+      },
+      {
+        "form": "kalos-cap",
+        "has_female": true
+      },
+      {
+        "form": "libre",
+        "has_female": false
+      },
+      {
+        "form": "original-cap",
+        "has_female": true
+      },
+      {
+        "form": "partner-cap",
+        "has_female": true
+      },
+      {
+        "form": "phd",
+        "has_female": false
+      },
+      {
+        "form": "pop-star",
+        "has_female": false
+      },
+      {
+        "form": "rock-star",
+        "has_female": false
+      },
+      {
+        "form": "sinnoh-cap",
+        "has_female": true
+      },
+      {
+        "form": "starter",
+        "has_female": true
+      },
+      {
+        "form": "unova-cap",
+        "has_female": true
+      },
+      {
+        "form": "world-cap",
+        "has_female": true
+      }
+    ]
+  },
+  {
+    "dexno": "026",
+    "name": "Raichu",
+    "slug": "raichu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "027",
+    "name": "Sandshrew",
+    "slug": "sandshrew",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "028",
+    "name": "Sandslash",
+    "slug": "sandslash",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "029",
+    "name": "Nidoran\u2640",
+    "slug": "nidoran-f",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "030",
+    "name": "Nidorina",
+    "slug": "nidorina",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "031",
+    "name": "Nidoqueen",
+    "slug": "nidoqueen",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "032",
+    "name": "Nidoran\u2642",
+    "slug": "nidoran-m",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "033",
+    "name": "Nidorino",
+    "slug": "nidorino",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "034",
+    "name": "Nidoking",
+    "slug": "nidoking",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "035",
+    "name": "Clefairy",
+    "slug": "clefairy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "036",
+    "name": "Clefable",
+    "slug": "clefable",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "037",
+    "name": "Vulpix",
+    "slug": "vulpix",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "038",
+    "name": "Ninetales",
+    "slug": "ninetales",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "039",
+    "name": "Jigglypuff",
+    "slug": "jigglypuff",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "040",
+    "name": "Wigglytuff",
+    "slug": "wigglytuff",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "041",
+    "name": "Zubat",
+    "slug": "zubat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "042",
+    "name": "Golbat",
+    "slug": "golbat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "043",
+    "name": "Oddish",
+    "slug": "oddish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "044",
+    "name": "Gloom",
+    "slug": "gloom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "045",
+    "name": "Vileplume",
+    "slug": "vileplume",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "046",
+    "name": "Paras",
+    "slug": "paras",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "047",
+    "name": "Parasect",
+    "slug": "parasect",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "048",
+    "name": "Venonat",
+    "slug": "venonat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "049",
+    "name": "Venomoth",
+    "slug": "venomoth",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "050",
+    "name": "Diglett",
+    "slug": "diglett",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "051",
+    "name": "Dugtrio",
+    "slug": "dugtrio",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "052",
+    "name": "Meowth",
+    "slug": "meowth",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "053",
+    "name": "Persian",
+    "slug": "persian",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "054",
+    "name": "Psyduck",
+    "slug": "psyduck",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "055",
+    "name": "Golduck",
+    "slug": "golduck",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "056",
+    "name": "Mankey",
+    "slug": "mankey",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "057",
+    "name": "Primeape",
+    "slug": "primeape",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "058",
+    "name": "Growlithe",
+    "slug": "growlithe",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "059",
+    "name": "Arcanine",
+    "slug": "arcanine",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "060",
+    "name": "Poliwag",
+    "slug": "poliwag",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "061",
+    "name": "Poliwhirl",
+    "slug": "poliwhirl",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "062",
+    "name": "Poliwrath",
+    "slug": "poliwrath",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "063",
+    "name": "Abra",
+    "slug": "abra",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "064",
+    "name": "Kadabra",
+    "slug": "kadabra",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "065",
+    "name": "Alakazam",
+    "slug": "alakazam",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "066",
+    "name": "Machop",
+    "slug": "machop",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "067",
+    "name": "Machoke",
+    "slug": "machoke",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "068",
+    "name": "Machamp",
+    "slug": "machamp",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "069",
+    "name": "Bellsprout",
+    "slug": "bellsprout",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "070",
+    "name": "Weepinbell",
+    "slug": "weepinbell",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "071",
+    "name": "Victreebel",
+    "slug": "victreebel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "072",
+    "name": "Tentacool",
+    "slug": "tentacool",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "073",
+    "name": "Tentacruel",
+    "slug": "tentacruel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "074",
+    "name": "Geodude",
+    "slug": "geodude",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "075",
+    "name": "Graveler",
+    "slug": "graveler",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "076",
+    "name": "Golem",
+    "slug": "golem",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "077",
+    "name": "Ponyta",
+    "slug": "ponyta",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "078",
+    "name": "Rapidash",
+    "slug": "rapidash",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "079",
+    "name": "Slowpoke",
+    "slug": "slowpoke",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "080",
+    "name": "Slowbro",
+    "slug": "slowbro",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "081",
+    "name": "Magnemite",
+    "slug": "magnemite",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "082",
+    "name": "Magneton",
+    "slug": "magneton",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "083",
+    "name": "Farfetch'd",
+    "slug": "farfetchd",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "084",
+    "name": "Doduo",
+    "slug": "doduo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "085",
+    "name": "Dodrio",
+    "slug": "dodrio",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "086",
+    "name": "Seel",
+    "slug": "seel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "087",
+    "name": "Dewgong",
+    "slug": "dewgong",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "088",
+    "name": "Grimer",
+    "slug": "grimer",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "089",
+    "name": "Muk",
+    "slug": "muk",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "090",
+    "name": "Shellder",
+    "slug": "shellder",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "091",
+    "name": "Cloyster",
+    "slug": "cloyster",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "092",
+    "name": "Gastly",
+    "slug": "gastly",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "093",
+    "name": "Haunter",
+    "slug": "haunter",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "094",
+    "name": "Gengar",
+    "slug": "gengar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "095",
+    "name": "Onix",
+    "slug": "onix",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "096",
+    "name": "Drowzee",
+    "slug": "drowzee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "097",
+    "name": "Hypno",
+    "slug": "hypno",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "098",
+    "name": "Krabby",
+    "slug": "krabby",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "099",
+    "name": "Kingler",
+    "slug": "kingler",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "100",
+    "name": "Voltorb",
+    "slug": "voltorb",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "101",
+    "name": "Electrode",
+    "slug": "electrode",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "102",
+    "name": "Exeggcute",
+    "slug": "exeggcute",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "103",
+    "name": "Exeggutor",
+    "slug": "exeggutor",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "104",
+    "name": "Cubone",
+    "slug": "cubone",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "105",
+    "name": "Marowak",
+    "slug": "marowak",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "alola",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      },
+      {
+        "form": "totem-alola",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "106",
+    "name": "Hitmonlee",
+    "slug": "hitmonlee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "107",
+    "name": "Hitmonchan",
+    "slug": "hitmonchan",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "108",
+    "name": "Lickitung",
+    "slug": "lickitung",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "109",
+    "name": "Koffing",
+    "slug": "koffing",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "110",
+    "name": "Weezing",
+    "slug": "weezing",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "111",
+    "name": "Rhyhorn",
+    "slug": "rhyhorn",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "112",
+    "name": "Rhydon",
+    "slug": "rhydon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "113",
+    "name": "Chansey",
+    "slug": "chansey",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "114",
+    "name": "Tangela",
+    "slug": "tangela",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "115",
+    "name": "Kangaskhan",
+    "slug": "kangaskhan",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "116",
+    "name": "Horsea",
+    "slug": "horsea",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "117",
+    "name": "Seadra",
+    "slug": "seadra",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "118",
+    "name": "Goldeen",
+    "slug": "goldeen",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "119",
+    "name": "Seaking",
+    "slug": "seaking",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "120",
+    "name": "Staryu",
+    "slug": "staryu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "121",
+    "name": "Starmie",
+    "slug": "starmie",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "122",
+    "name": "Mr. Mime",
+    "slug": "mr-mime",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "123",
+    "name": "Scyther",
+    "slug": "scyther",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "124",
+    "name": "Jynx",
+    "slug": "jynx",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "125",
+    "name": "Electabuzz",
+    "slug": "electabuzz",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "126",
+    "name": "Magmar",
+    "slug": "magmar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "127",
+    "name": "Pinsir",
+    "slug": "pinsir",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "128",
+    "name": "Tauros",
+    "slug": "tauros",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "129",
+    "name": "Magikarp",
+    "slug": "magikarp",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "130",
+    "name": "Gyarados",
+    "slug": "gyarados",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "131",
+    "name": "Lapras",
+    "slug": "lapras",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "132",
+    "name": "Ditto",
+    "slug": "ditto",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "133",
+    "name": "Eevee",
+    "slug": "eevee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      },
+      {
+        "form": "starter",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "134",
+    "name": "Vaporeon",
+    "slug": "vaporeon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "135",
+    "name": "Jolteon",
+    "slug": "jolteon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "136",
+    "name": "Flareon",
+    "slug": "flareon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "137",
+    "name": "Porygon",
+    "slug": "porygon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "138",
+    "name": "Omanyte",
+    "slug": "omanyte",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "139",
+    "name": "Omastar",
+    "slug": "omastar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "140",
+    "name": "Kabuto",
+    "slug": "kabuto",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "141",
+    "name": "Kabutops",
+    "slug": "kabutops",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "142",
+    "name": "Aerodactyl",
+    "slug": "aerodactyl",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "143",
+    "name": "Snorlax",
+    "slug": "snorlax",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "144",
+    "name": "Articuno",
+    "slug": "articuno",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "145",
+    "name": "Zapdos",
+    "slug": "zapdos",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "146",
+    "name": "Moltres",
+    "slug": "moltres",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "147",
+    "name": "Dratini",
+    "slug": "dratini",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "148",
+    "name": "Dragonair",
+    "slug": "dragonair",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "149",
+    "name": "Dragonite",
+    "slug": "dragonite",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "150",
+    "name": "Mewtwo",
+    "slug": "mewtwo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega-x",
+        "has_female": false
+      },
+      {
+        "form": "mega-y",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "151",
+    "name": "Mew",
+    "slug": "mew",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "152",
+    "name": "Chikorita",
+    "slug": "chikorita",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "153",
+    "name": "Bayleef",
+    "slug": "bayleef",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "154",
+    "name": "Meganium",
+    "slug": "meganium",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "155",
+    "name": "Cyndaquil",
+    "slug": "cyndaquil",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "156",
+    "name": "Quilava",
+    "slug": "quilava",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "157",
+    "name": "Typhlosion",
+    "slug": "typhlosion",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "158",
+    "name": "Totodile",
+    "slug": "totodile",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "159",
+    "name": "Croconaw",
+    "slug": "croconaw",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "160",
+    "name": "Feraligatr",
+    "slug": "feraligatr",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "161",
+    "name": "Sentret",
+    "slug": "sentret",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "162",
+    "name": "Furret",
+    "slug": "furret",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "163",
+    "name": "Hoothoot",
+    "slug": "hoothoot",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "164",
+    "name": "Noctowl",
+    "slug": "noctowl",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "165",
+    "name": "Ledyba",
+    "slug": "ledyba",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "166",
+    "name": "Ledian",
+    "slug": "ledian",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "167",
+    "name": "Spinarak",
+    "slug": "spinarak",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "168",
+    "name": "Ariados",
+    "slug": "ariados",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "169",
+    "name": "Crobat",
+    "slug": "crobat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "170",
+    "name": "Chinchou",
+    "slug": "chinchou",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "171",
+    "name": "Lanturn",
+    "slug": "lanturn",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "172",
+    "name": "Pichu",
+    "slug": "pichu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "spiky-eared",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "173",
+    "name": "Cleffa",
+    "slug": "cleffa",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "174",
+    "name": "Igglybuff",
+    "slug": "igglybuff",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "175",
+    "name": "Togepi",
+    "slug": "togepi",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "176",
+    "name": "Togetic",
+    "slug": "togetic",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "177",
+    "name": "Natu",
+    "slug": "natu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "178",
+    "name": "Xatu",
+    "slug": "xatu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "179",
+    "name": "Mareep",
+    "slug": "mareep",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "180",
+    "name": "Flaaffy",
+    "slug": "flaaffy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "181",
+    "name": "Ampharos",
+    "slug": "ampharos",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "182",
+    "name": "Bellossom",
+    "slug": "bellossom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "183",
+    "name": "Marill",
+    "slug": "marill",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "184",
+    "name": "Azumarill",
+    "slug": "azumarill",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "185",
+    "name": "Sudowoodo",
+    "slug": "sudowoodo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "186",
+    "name": "Politoed",
+    "slug": "politoed",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "187",
+    "name": "Hoppip",
+    "slug": "hoppip",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "188",
+    "name": "Skiploom",
+    "slug": "skiploom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "189",
+    "name": "Jumpluff",
+    "slug": "jumpluff",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "190",
+    "name": "Aipom",
+    "slug": "aipom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "191",
+    "name": "Sunkern",
+    "slug": "sunkern",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "192",
+    "name": "Sunflora",
+    "slug": "sunflora",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "193",
+    "name": "Yanma",
+    "slug": "yanma",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "194",
+    "name": "Wooper",
+    "slug": "wooper",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "195",
+    "name": "Quagsire",
+    "slug": "quagsire",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "196",
+    "name": "Espeon",
+    "slug": "espeon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "197",
+    "name": "Umbreon",
+    "slug": "umbreon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "198",
+    "name": "Murkrow",
+    "slug": "murkrow",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "199",
+    "name": "Slowking",
+    "slug": "slowking",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "200",
+    "name": "Misdreavus",
+    "slug": "misdreavus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "201",
+    "name": "Unown",
+    "slug": "unown",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "a",
+        "has_female": false
+      },
+      {
+        "form": "b",
+        "has_female": false
+      },
+      {
+        "form": "c",
+        "has_female": false
+      },
+      {
+        "form": "d",
+        "has_female": false
+      },
+      {
+        "form": "e",
+        "has_female": false
+      },
+      {
+        "form": "exclamation",
+        "has_female": false
+      },
+      {
+        "form": "f",
+        "has_female": false
+      },
+      {
+        "form": "g",
+        "has_female": false
+      },
+      {
+        "form": "h",
+        "has_female": false
+      },
+      {
+        "form": "i",
+        "has_female": false
+      },
+      {
+        "form": "j",
+        "has_female": false
+      },
+      {
+        "form": "k",
+        "has_female": false
+      },
+      {
+        "form": "l",
+        "has_female": false
+      },
+      {
+        "form": "m",
+        "has_female": false
+      },
+      {
+        "form": "n",
+        "has_female": false
+      },
+      {
+        "form": "o",
+        "has_female": false
+      },
+      {
+        "form": "p",
+        "has_female": false
+      },
+      {
+        "form": "q",
+        "has_female": false
+      },
+      {
+        "form": "question",
+        "has_female": false
+      },
+      {
+        "form": "r",
+        "has_female": false
+      },
+      {
+        "form": "s",
+        "has_female": false
+      },
+      {
+        "form": "t",
+        "has_female": false
+      },
+      {
+        "form": "u",
+        "has_female": false
+      },
+      {
+        "form": "v",
+        "has_female": false
+      },
+      {
+        "form": "w",
+        "has_female": false
+      },
+      {
+        "form": "x",
+        "has_female": false
+      },
+      {
+        "form": "y",
+        "has_female": false
+      },
+      {
+        "form": "z",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "202",
+    "name": "Wobbuffet",
+    "slug": "wobbuffet",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "203",
+    "name": "Girafarig",
+    "slug": "girafarig",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "204",
+    "name": "Pineco",
+    "slug": "pineco",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "205",
+    "name": "Forretress",
+    "slug": "forretress",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "206",
+    "name": "Dunsparce",
+    "slug": "dunsparce",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "207",
+    "name": "Gligar",
+    "slug": "gligar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "208",
+    "name": "Steelix",
+    "slug": "steelix",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "209",
+    "name": "Snubbull",
+    "slug": "snubbull",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "210",
+    "name": "Granbull",
+    "slug": "granbull",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "211",
+    "name": "Qwilfish",
+    "slug": "qwilfish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "212",
+    "name": "Scizor",
+    "slug": "scizor",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "213",
+    "name": "Shuckle",
+    "slug": "shuckle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "214",
+    "name": "Heracross",
+    "slug": "heracross",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "215",
+    "name": "Sneasel",
+    "slug": "sneasel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "216",
+    "name": "Teddiursa",
+    "slug": "teddiursa",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "217",
+    "name": "Ursaring",
+    "slug": "ursaring",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "218",
+    "name": "Slugma",
+    "slug": "slugma",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "219",
+    "name": "Magcargo",
+    "slug": "magcargo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "220",
+    "name": "Swinub",
+    "slug": "swinub",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "221",
+    "name": "Piloswine",
+    "slug": "piloswine",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "222",
+    "name": "Corsola",
+    "slug": "corsola",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "223",
+    "name": "Remoraid",
+    "slug": "remoraid",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "224",
+    "name": "Octillery",
+    "slug": "octillery",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "225",
+    "name": "Delibird",
+    "slug": "delibird",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "226",
+    "name": "Mantine",
+    "slug": "mantine",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "227",
+    "name": "Skarmory",
+    "slug": "skarmory",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "228",
+    "name": "Houndour",
+    "slug": "houndour",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "229",
+    "name": "Houndoom",
+    "slug": "houndoom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "230",
+    "name": "Kingdra",
+    "slug": "kingdra",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "231",
+    "name": "Phanpy",
+    "slug": "phanpy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "232",
+    "name": "Donphan",
+    "slug": "donphan",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "233",
+    "name": "Porygon2",
+    "slug": "porygon2",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "234",
+    "name": "Stantler",
+    "slug": "stantler",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "235",
+    "name": "Smeargle",
+    "slug": "smeargle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "236",
+    "name": "Tyrogue",
+    "slug": "tyrogue",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "237",
+    "name": "Hitmontop",
+    "slug": "hitmontop",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "238",
+    "name": "Smoochum",
+    "slug": "smoochum",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "239",
+    "name": "Elekid",
+    "slug": "elekid",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "240",
+    "name": "Magby",
+    "slug": "magby",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "241",
+    "name": "Miltank",
+    "slug": "miltank",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "242",
+    "name": "Blissey",
+    "slug": "blissey",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "243",
+    "name": "Raikou",
+    "slug": "raikou",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "244",
+    "name": "Entei",
+    "slug": "entei",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "245",
+    "name": "Suicune",
+    "slug": "suicune",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "246",
+    "name": "Larvitar",
+    "slug": "larvitar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "247",
+    "name": "Pupitar",
+    "slug": "pupitar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "248",
+    "name": "Tyranitar",
+    "slug": "tyranitar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "249",
+    "name": "Lugia",
+    "slug": "lugia",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "250",
+    "name": "Ho-Oh",
+    "slug": "ho-oh",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "251",
+    "name": "Celebi",
+    "slug": "celebi",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "252",
+    "name": "Treecko",
+    "slug": "treecko",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "253",
+    "name": "Grovyle",
+    "slug": "grovyle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "254",
+    "name": "Sceptile",
+    "slug": "sceptile",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "255",
+    "name": "Torchic",
+    "slug": "torchic",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "256",
+    "name": "Combusken",
+    "slug": "combusken",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "257",
+    "name": "Blaziken",
+    "slug": "blaziken",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "258",
+    "name": "Mudkip",
+    "slug": "mudkip",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "259",
+    "name": "Marshtomp",
+    "slug": "marshtomp",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "260",
+    "name": "Swampert",
+    "slug": "swampert",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "261",
+    "name": "Poochyena",
+    "slug": "poochyena",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "262",
+    "name": "Mightyena",
+    "slug": "mightyena",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "263",
+    "name": "Zigzagoon",
+    "slug": "zigzagoon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "264",
+    "name": "Linoone",
+    "slug": "linoone",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "265",
+    "name": "Wurmple",
+    "slug": "wurmple",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "266",
+    "name": "Silcoon",
+    "slug": "silcoon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "267",
+    "name": "Beautifly",
+    "slug": "beautifly",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "268",
+    "name": "Cascoon",
+    "slug": "cascoon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "269",
+    "name": "Dustox",
+    "slug": "dustox",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "270",
+    "name": "Lotad",
+    "slug": "lotad",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "271",
+    "name": "Lombre",
+    "slug": "lombre",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "272",
+    "name": "Ludicolo",
+    "slug": "ludicolo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "273",
+    "name": "Seedot",
+    "slug": "seedot",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "274",
+    "name": "Nuzleaf",
+    "slug": "nuzleaf",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "275",
+    "name": "Shiftry",
+    "slug": "shiftry",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "276",
+    "name": "Taillow",
+    "slug": "taillow",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "277",
+    "name": "Swellow",
+    "slug": "swellow",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "278",
+    "name": "Wingull",
+    "slug": "wingull",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "279",
+    "name": "Pelipper",
+    "slug": "pelipper",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "280",
+    "name": "Ralts",
+    "slug": "ralts",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "281",
+    "name": "Kirlia",
+    "slug": "kirlia",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "282",
+    "name": "Gardevoir",
+    "slug": "gardevoir",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "283",
+    "name": "Surskit",
+    "slug": "surskit",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "284",
+    "name": "Masquerain",
+    "slug": "masquerain",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "285",
+    "name": "Shroomish",
+    "slug": "shroomish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "286",
+    "name": "Breloom",
+    "slug": "breloom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "287",
+    "name": "Slakoth",
+    "slug": "slakoth",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "288",
+    "name": "Vigoroth",
+    "slug": "vigoroth",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "289",
+    "name": "Slaking",
+    "slug": "slaking",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "290",
+    "name": "Nincada",
+    "slug": "nincada",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "291",
+    "name": "Ninjask",
+    "slug": "ninjask",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "292",
+    "name": "Shedinja",
+    "slug": "shedinja",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "293",
+    "name": "Whismur",
+    "slug": "whismur",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "294",
+    "name": "Loudred",
+    "slug": "loudred",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "295",
+    "name": "Exploud",
+    "slug": "exploud",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "296",
+    "name": "Makuhita",
+    "slug": "makuhita",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "297",
+    "name": "Hariyama",
+    "slug": "hariyama",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "298",
+    "name": "Azurill",
+    "slug": "azurill",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "299",
+    "name": "Nosepass",
+    "slug": "nosepass",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "300",
+    "name": "Skitty",
+    "slug": "skitty",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "301",
+    "name": "Delcatty",
+    "slug": "delcatty",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "302",
+    "name": "Sableye",
+    "slug": "sableye",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "303",
+    "name": "Mawile",
+    "slug": "mawile",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "304",
+    "name": "Aron",
+    "slug": "aron",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "305",
+    "name": "Lairon",
+    "slug": "lairon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "306",
+    "name": "Aggron",
+    "slug": "aggron",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "307",
+    "name": "Meditite",
+    "slug": "meditite",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "308",
+    "name": "Medicham",
+    "slug": "medicham",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "309",
+    "name": "Electrike",
+    "slug": "electrike",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "310",
+    "name": "Manectric",
+    "slug": "manectric",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "311",
+    "name": "Plusle",
+    "slug": "plusle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "312",
+    "name": "Minun",
+    "slug": "minun",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "313",
+    "name": "Volbeat",
+    "slug": "volbeat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "314",
+    "name": "Illumise",
+    "slug": "illumise",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "315",
+    "name": "Roselia",
+    "slug": "roselia",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "316",
+    "name": "Gulpin",
+    "slug": "gulpin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "317",
+    "name": "Swalot",
+    "slug": "swalot",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "318",
+    "name": "Carvanha",
+    "slug": "carvanha",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "319",
+    "name": "Sharpedo",
+    "slug": "sharpedo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "320",
+    "name": "Wailmer",
+    "slug": "wailmer",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "321",
+    "name": "Wailord",
+    "slug": "wailord",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "322",
+    "name": "Numel",
+    "slug": "numel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "323",
+    "name": "Camerupt",
+    "slug": "camerupt",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "324",
+    "name": "Torkoal",
+    "slug": "torkoal",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "325",
+    "name": "Spoink",
+    "slug": "spoink",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "326",
+    "name": "Grumpig",
+    "slug": "grumpig",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "327",
+    "name": "Spinda",
+    "slug": "spinda",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "blank",
+        "has_female": false
+      },
+      {
+        "form": "filled",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "328",
+    "name": "Trapinch",
+    "slug": "trapinch",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "329",
+    "name": "Vibrava",
+    "slug": "vibrava",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "330",
+    "name": "Flygon",
+    "slug": "flygon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "331",
+    "name": "Cacnea",
+    "slug": "cacnea",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "332",
+    "name": "Cacturne",
+    "slug": "cacturne",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "333",
+    "name": "Swablu",
+    "slug": "swablu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "334",
+    "name": "Altaria",
+    "slug": "altaria",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "335",
+    "name": "Zangoose",
+    "slug": "zangoose",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "336",
+    "name": "Seviper",
+    "slug": "seviper",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "337",
+    "name": "Lunatone",
+    "slug": "lunatone",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "338",
+    "name": "Solrock",
+    "slug": "solrock",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "339",
+    "name": "Barboach",
+    "slug": "barboach",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "340",
+    "name": "Whiscash",
+    "slug": "whiscash",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "341",
+    "name": "Corphish",
+    "slug": "corphish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "342",
+    "name": "Crawdaunt",
+    "slug": "crawdaunt",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "343",
+    "name": "Baltoy",
+    "slug": "baltoy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "344",
+    "name": "Claydol",
+    "slug": "claydol",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "345",
+    "name": "Lileep",
+    "slug": "lileep",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "346",
+    "name": "Cradily",
+    "slug": "cradily",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "347",
+    "name": "Anorith",
+    "slug": "anorith",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "348",
+    "name": "Armaldo",
+    "slug": "armaldo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "349",
+    "name": "Feebas",
+    "slug": "feebas",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "350",
+    "name": "Milotic",
+    "slug": "milotic",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "351",
+    "name": "Castform",
+    "slug": "castform",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "rainy",
+        "has_female": false
+      },
+      {
+        "form": "snowy",
+        "has_female": false
+      },
+      {
+        "form": "sunny",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "352",
+    "name": "Kecleon",
+    "slug": "kecleon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "353",
+    "name": "Shuppet",
+    "slug": "shuppet",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "354",
+    "name": "Banette",
+    "slug": "banette",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "355",
+    "name": "Duskull",
+    "slug": "duskull",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "356",
+    "name": "Dusclops",
+    "slug": "dusclops",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "357",
+    "name": "Tropius",
+    "slug": "tropius",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "358",
+    "name": "Chimecho",
+    "slug": "chimecho",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "359",
+    "name": "Absol",
+    "slug": "absol",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "360",
+    "name": "Wynaut",
+    "slug": "wynaut",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "361",
+    "name": "Snorunt",
+    "slug": "snorunt",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "362",
+    "name": "Glalie",
+    "slug": "glalie",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "363",
+    "name": "Spheal",
+    "slug": "spheal",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "364",
+    "name": "Sealeo",
+    "slug": "sealeo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "365",
+    "name": "Walrein",
+    "slug": "walrein",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "366",
+    "name": "Clamperl",
+    "slug": "clamperl",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "367",
+    "name": "Huntail",
+    "slug": "huntail",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "368",
+    "name": "Gorebyss",
+    "slug": "gorebyss",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "369",
+    "name": "Relicanth",
+    "slug": "relicanth",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "370",
+    "name": "Luvdisc",
+    "slug": "luvdisc",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "371",
+    "name": "Bagon",
+    "slug": "bagon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "372",
+    "name": "Shelgon",
+    "slug": "shelgon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "373",
+    "name": "Salamence",
+    "slug": "salamence",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "374",
+    "name": "Beldum",
+    "slug": "beldum",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "375",
+    "name": "Metang",
+    "slug": "metang",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "376",
+    "name": "Metagross",
+    "slug": "metagross",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "377",
+    "name": "Regirock",
+    "slug": "regirock",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "378",
+    "name": "Regice",
+    "slug": "regice",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "379",
+    "name": "Registeel",
+    "slug": "registeel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "380",
+    "name": "Latias",
+    "slug": "latias",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "381",
+    "name": "Latios",
+    "slug": "latios",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "382",
+    "name": "Kyogre",
+    "slug": "kyogre",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "primal",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "383",
+    "name": "Groudon",
+    "slug": "groudon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "primal",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "384",
+    "name": "Rayquaza",
+    "slug": "rayquaza",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "385",
+    "name": "Jirachi",
+    "slug": "jirachi",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "386",
+    "name": "Deoxys",
+    "slug": "deoxys",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "attack",
+        "has_female": false
+      },
+      {
+        "form": "defense",
+        "has_female": false
+      },
+      {
+        "form": "normal",
+        "has_female": false
+      },
+      {
+        "form": "speed",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "387",
+    "name": "Turtwig",
+    "slug": "turtwig",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "388",
+    "name": "Grotle",
+    "slug": "grotle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "389",
+    "name": "Torterra",
+    "slug": "torterra",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "390",
+    "name": "Chimchar",
+    "slug": "chimchar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "391",
+    "name": "Monferno",
+    "slug": "monferno",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "392",
+    "name": "Infernape",
+    "slug": "infernape",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "393",
+    "name": "Piplup",
+    "slug": "piplup",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "394",
+    "name": "Prinplup",
+    "slug": "prinplup",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "395",
+    "name": "Empoleon",
+    "slug": "empoleon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "396",
+    "name": "Starly",
+    "slug": "starly",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "397",
+    "name": "Staravia",
+    "slug": "staravia",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "398",
+    "name": "Staraptor",
+    "slug": "staraptor",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "399",
+    "name": "Bidoof",
+    "slug": "bidoof",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "400",
+    "name": "Bibarel",
+    "slug": "bibarel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "401",
+    "name": "Kricketot",
+    "slug": "kricketot",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "402",
+    "name": "Kricketune",
+    "slug": "kricketune",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "403",
+    "name": "Shinx",
+    "slug": "shinx",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "404",
+    "name": "Luxio",
+    "slug": "luxio",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "405",
+    "name": "Luxray",
+    "slug": "luxray",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "406",
+    "name": "Budew",
+    "slug": "budew",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "407",
+    "name": "Roserade",
+    "slug": "roserade",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "408",
+    "name": "Cranidos",
+    "slug": "cranidos",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "409",
+    "name": "Rampardos",
+    "slug": "rampardos",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "410",
+    "name": "Shieldon",
+    "slug": "shieldon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "411",
+    "name": "Bastiodon",
+    "slug": "bastiodon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "412",
+    "name": "Burmy",
+    "slug": "burmy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "plant",
+        "has_female": false
+      },
+      {
+        "form": "sandy",
+        "has_female": false
+      },
+      {
+        "form": "trash",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "413",
+    "name": "Wormadam",
+    "slug": "wormadam",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "plant",
+        "has_female": false
+      },
+      {
+        "form": "sandy",
+        "has_female": false
+      },
+      {
+        "form": "trash",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "414",
+    "name": "Mothim",
+    "slug": "mothim",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "plant",
+        "has_female": false
+      },
+      {
+        "form": "sandy",
+        "has_female": false
+      },
+      {
+        "form": "trash",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "415",
+    "name": "Combee",
+    "slug": "combee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "416",
+    "name": "Vespiquen",
+    "slug": "vespiquen",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "417",
+    "name": "Pachirisu",
+    "slug": "pachirisu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "418",
+    "name": "Buizel",
+    "slug": "buizel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "419",
+    "name": "Floatzel",
+    "slug": "floatzel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "420",
+    "name": "Cherubi",
+    "slug": "cherubi",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "421",
+    "name": "Cherrim",
+    "slug": "cherrim",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "overcast",
+        "has_female": false
+      },
+      {
+        "form": "sunshine",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "422",
+    "name": "Shellos",
+    "slug": "shellos",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "east",
+        "has_female": false
+      },
+      {
+        "form": "west",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "423",
+    "name": "Gastrodon",
+    "slug": "gastrodon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "east",
+        "has_female": false
+      },
+      {
+        "form": "west",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "424",
+    "name": "Ambipom",
+    "slug": "ambipom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "425",
+    "name": "Drifloon",
+    "slug": "drifloon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "426",
+    "name": "Drifblim",
+    "slug": "drifblim",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "427",
+    "name": "Buneary",
+    "slug": "buneary",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "428",
+    "name": "Lopunny",
+    "slug": "lopunny",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "429",
+    "name": "Mismagius",
+    "slug": "mismagius",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "430",
+    "name": "Honchkrow",
+    "slug": "honchkrow",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "431",
+    "name": "Glameow",
+    "slug": "glameow",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "432",
+    "name": "Purugly",
+    "slug": "purugly",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "433",
+    "name": "Chingling",
+    "slug": "chingling",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "434",
+    "name": "Stunky",
+    "slug": "stunky",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "435",
+    "name": "Skuntank",
+    "slug": "skuntank",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "436",
+    "name": "Bronzor",
+    "slug": "bronzor",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "437",
+    "name": "Bronzong",
+    "slug": "bronzong",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "438",
+    "name": "Bonsly",
+    "slug": "bonsly",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "439",
+    "name": "Mime Jr.",
+    "slug": "mime-jr",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "440",
+    "name": "Happiny",
+    "slug": "happiny",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "441",
+    "name": "Chatot",
+    "slug": "chatot",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "442",
+    "name": "Spiritomb",
+    "slug": "spiritomb",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "443",
+    "name": "Gible",
+    "slug": "gible",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "444",
+    "name": "Gabite",
+    "slug": "gabite",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "445",
+    "name": "Garchomp",
+    "slug": "garchomp",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "446",
+    "name": "Munchlax",
+    "slug": "munchlax",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "447",
+    "name": "Riolu",
+    "slug": "riolu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "448",
+    "name": "Lucario",
+    "slug": "lucario",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "449",
+    "name": "Hippopotas",
+    "slug": "hippopotas",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": true
+      }
+    ]
+  },
+  {
+    "dexno": "450",
+    "name": "Hippowdon",
+    "slug": "hippowdon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": true
+      }
+    ]
+  },
+  {
+    "dexno": "451",
+    "name": "Skorupi",
+    "slug": "skorupi",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "452",
+    "name": "Drapion",
+    "slug": "drapion",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "453",
+    "name": "Croagunk",
+    "slug": "croagunk",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "454",
+    "name": "Toxicroak",
+    "slug": "toxicroak",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "455",
+    "name": "Carnivine",
+    "slug": "carnivine",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "456",
+    "name": "Finneon",
+    "slug": "finneon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "457",
+    "name": "Lumineon",
+    "slug": "lumineon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "458",
+    "name": "Mantyke",
+    "slug": "mantyke",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "459",
+    "name": "Snover",
+    "slug": "snover",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "460",
+    "name": "Abomasnow",
+    "slug": "abomasnow",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "461",
+    "name": "Weavile",
+    "slug": "weavile",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "462",
+    "name": "Magnezone",
+    "slug": "magnezone",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "463",
+    "name": "Lickilicky",
+    "slug": "lickilicky",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "464",
+    "name": "Rhyperior",
+    "slug": "rhyperior",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "465",
+    "name": "Tangrowth",
+    "slug": "tangrowth",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "466",
+    "name": "Electivire",
+    "slug": "electivire",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "467",
+    "name": "Magmortar",
+    "slug": "magmortar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "468",
+    "name": "Togekiss",
+    "slug": "togekiss",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "469",
+    "name": "Yanmega",
+    "slug": "yanmega",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "470",
+    "name": "Leafeon",
+    "slug": "leafeon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "471",
+    "name": "Glaceon",
+    "slug": "glaceon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "472",
+    "name": "Gliscor",
+    "slug": "gliscor",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "473",
+    "name": "Mamoswine",
+    "slug": "mamoswine",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "474",
+    "name": "Porygon-Z",
+    "slug": "porygon-z",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "475",
+    "name": "Gallade",
+    "slug": "gallade",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "476",
+    "name": "Probopass",
+    "slug": "probopass",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "477",
+    "name": "Dusknoir",
+    "slug": "dusknoir",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "478",
+    "name": "Froslass",
+    "slug": "froslass",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "479",
+    "name": "Rotom",
+    "slug": "rotom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "fan",
+        "has_female": false
+      },
+      {
+        "form": "frost",
+        "has_female": false
+      },
+      {
+        "form": "heat",
+        "has_female": false
+      },
+      {
+        "form": "mow",
+        "has_female": false
+      },
+      {
+        "form": "wash",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "480",
+    "name": "Uxie",
+    "slug": "uxie",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "481",
+    "name": "Mesprit",
+    "slug": "mesprit",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "482",
+    "name": "Azelf",
+    "slug": "azelf",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "483",
+    "name": "Dialga",
+    "slug": "dialga",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "484",
+    "name": "Palkia",
+    "slug": "palkia",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "485",
+    "name": "Heatran",
+    "slug": "heatran",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "486",
+    "name": "Regigigas",
+    "slug": "regigigas",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "487",
+    "name": "Giratina",
+    "slug": "giratina",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "altered",
+        "has_female": false
+      },
+      {
+        "form": "origin",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "488",
+    "name": "Cresselia",
+    "slug": "cresselia",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "489",
+    "name": "Phione",
+    "slug": "phione",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "490",
+    "name": "Manaphy",
+    "slug": "manaphy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "491",
+    "name": "Darkrai",
+    "slug": "darkrai",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "492",
+    "name": "Shaymin",
+    "slug": "shaymin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "land",
+        "has_female": false
+      },
+      {
+        "form": "sky",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "493",
+    "name": "Arceus",
+    "slug": "arceus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "bug",
+        "has_female": false
+      },
+      {
+        "form": "dark",
+        "has_female": false
+      },
+      {
+        "form": "dragon",
+        "has_female": false
+      },
+      {
+        "form": "electric",
+        "has_female": false
+      },
+      {
+        "form": "fairy",
+        "has_female": false
+      },
+      {
+        "form": "fighting",
+        "has_female": false
+      },
+      {
+        "form": "fire",
+        "has_female": false
+      },
+      {
+        "form": "flying",
+        "has_female": false
+      },
+      {
+        "form": "ghost",
+        "has_female": false
+      },
+      {
+        "form": "grass",
+        "has_female": false
+      },
+      {
+        "form": "ground",
+        "has_female": false
+      },
+      {
+        "form": "ice",
+        "has_female": false
+      },
+      {
+        "form": "normal",
+        "has_female": false
+      },
+      {
+        "form": "poison",
+        "has_female": false
+      },
+      {
+        "form": "psychic",
+        "has_female": false
+      },
+      {
+        "form": "rock",
+        "has_female": false
+      },
+      {
+        "form": "steel",
+        "has_female": false
+      },
+      {
+        "form": "unknown",
+        "has_female": false
+      },
+      {
+        "form": "water",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "494",
+    "name": "Victini",
+    "slug": "victini",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "495",
+    "name": "Snivy",
+    "slug": "snivy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "496",
+    "name": "Servine",
+    "slug": "servine",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "497",
+    "name": "Serperior",
+    "slug": "serperior",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "498",
+    "name": "Tepig",
+    "slug": "tepig",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "499",
+    "name": "Pignite",
+    "slug": "pignite",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "500",
+    "name": "Emboar",
+    "slug": "emboar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "501",
+    "name": "Oshawott",
+    "slug": "oshawott",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "502",
+    "name": "Dewott",
+    "slug": "dewott",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "503",
+    "name": "Samurott",
+    "slug": "samurott",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "504",
+    "name": "Patrat",
+    "slug": "patrat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "505",
+    "name": "Watchog",
+    "slug": "watchog",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "506",
+    "name": "Lillipup",
+    "slug": "lillipup",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "507",
+    "name": "Herdier",
+    "slug": "herdier",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "508",
+    "name": "Stoutland",
+    "slug": "stoutland",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "509",
+    "name": "Purrloin",
+    "slug": "purrloin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "510",
+    "name": "Liepard",
+    "slug": "liepard",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "511",
+    "name": "Pansage",
+    "slug": "pansage",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "512",
+    "name": "Simisage",
+    "slug": "simisage",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "513",
+    "name": "Pansear",
+    "slug": "pansear",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "514",
+    "name": "Simisear",
+    "slug": "simisear",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "515",
+    "name": "Panpour",
+    "slug": "panpour",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "516",
+    "name": "Simipour",
+    "slug": "simipour",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "517",
+    "name": "Munna",
+    "slug": "munna",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "518",
+    "name": "Musharna",
+    "slug": "musharna",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "519",
+    "name": "Pidove",
+    "slug": "pidove",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "520",
+    "name": "Tranquill",
+    "slug": "tranquill",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "521",
+    "name": "Unfezant",
+    "slug": "unfezant",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": true
+      }
+    ]
+  },
+  {
+    "dexno": "522",
+    "name": "Blitzle",
+    "slug": "blitzle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "523",
+    "name": "Zebstrika",
+    "slug": "zebstrika",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "524",
+    "name": "Roggenrola",
+    "slug": "roggenrola",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "525",
+    "name": "Boldore",
+    "slug": "boldore",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "526",
+    "name": "Gigalith",
+    "slug": "gigalith",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "527",
+    "name": "Woobat",
+    "slug": "woobat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "528",
+    "name": "Swoobat",
+    "slug": "swoobat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "529",
+    "name": "Drilbur",
+    "slug": "drilbur",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "530",
+    "name": "Excadrill",
+    "slug": "excadrill",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "531",
+    "name": "Audino",
+    "slug": "audino",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "532",
+    "name": "Timburr",
+    "slug": "timburr",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "533",
+    "name": "Gurdurr",
+    "slug": "gurdurr",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "534",
+    "name": "Conkeldurr",
+    "slug": "conkeldurr",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "535",
+    "name": "Tympole",
+    "slug": "tympole",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "536",
+    "name": "Palpitoad",
+    "slug": "palpitoad",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "537",
+    "name": "Seismitoad",
+    "slug": "seismitoad",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "538",
+    "name": "Throh",
+    "slug": "throh",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "539",
+    "name": "Sawk",
+    "slug": "sawk",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "540",
+    "name": "Sewaddle",
+    "slug": "sewaddle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "541",
+    "name": "Swadloon",
+    "slug": "swadloon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "542",
+    "name": "Leavanny",
+    "slug": "leavanny",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "543",
+    "name": "Venipede",
+    "slug": "venipede",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "544",
+    "name": "Whirlipede",
+    "slug": "whirlipede",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "545",
+    "name": "Scolipede",
+    "slug": "scolipede",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "546",
+    "name": "Cottonee",
+    "slug": "cottonee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "547",
+    "name": "Whimsicott",
+    "slug": "whimsicott",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "548",
+    "name": "Petilil",
+    "slug": "petilil",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "549",
+    "name": "Lilligant",
+    "slug": "lilligant",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "550",
+    "name": "Basculin",
+    "slug": "basculin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "blue-striped",
+        "has_female": false
+      },
+      {
+        "form": "red-striped",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "551",
+    "name": "Sandile",
+    "slug": "sandile",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "552",
+    "name": "Krokorok",
+    "slug": "krokorok",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "553",
+    "name": "Krookodile",
+    "slug": "krookodile",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "554",
+    "name": "Darumaka",
+    "slug": "darumaka",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "555",
+    "name": "Darmanitan",
+    "slug": "darmanitan",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      },
+      {
+        "form": "galar-zen",
+        "has_female": false
+      },
+      {
+        "form": "standard",
+        "has_female": false
+      },
+      {
+        "form": "zen",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "556",
+    "name": "Maractus",
+    "slug": "maractus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "557",
+    "name": "Dwebble",
+    "slug": "dwebble",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "558",
+    "name": "Crustle",
+    "slug": "crustle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "559",
+    "name": "Scraggy",
+    "slug": "scraggy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "560",
+    "name": "Scrafty",
+    "slug": "scrafty",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "561",
+    "name": "Sigilyph",
+    "slug": "sigilyph",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "562",
+    "name": "Yamask",
+    "slug": "yamask",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "563",
+    "name": "Cofagrigus",
+    "slug": "cofagrigus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "564",
+    "name": "Tirtouga",
+    "slug": "tirtouga",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "565",
+    "name": "Carracosta",
+    "slug": "carracosta",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "566",
+    "name": "Archen",
+    "slug": "archen",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "567",
+    "name": "Archeops",
+    "slug": "archeops",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "568",
+    "name": "Trubbish",
+    "slug": "trubbish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "569",
+    "name": "Garbodor",
+    "slug": "garbodor",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "570",
+    "name": "Zorua",
+    "slug": "zorua",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "571",
+    "name": "Zoroark",
+    "slug": "zoroark",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "572",
+    "name": "Minccino",
+    "slug": "minccino",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "573",
+    "name": "Cinccino",
+    "slug": "cinccino",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "574",
+    "name": "Gothita",
+    "slug": "gothita",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "575",
+    "name": "Gothorita",
+    "slug": "gothorita",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "576",
+    "name": "Gothitelle",
+    "slug": "gothitelle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "577",
+    "name": "Solosis",
+    "slug": "solosis",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "578",
+    "name": "Duosion",
+    "slug": "duosion",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "579",
+    "name": "Reuniclus",
+    "slug": "reuniclus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "580",
+    "name": "Ducklett",
+    "slug": "ducklett",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "581",
+    "name": "Swanna",
+    "slug": "swanna",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "582",
+    "name": "Vanillite",
+    "slug": "vanillite",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "583",
+    "name": "Vanillish",
+    "slug": "vanillish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "584",
+    "name": "Vanilluxe",
+    "slug": "vanilluxe",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "585",
+    "name": "Deerling",
+    "slug": "deerling",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "autumn",
+        "has_female": false
+      },
+      {
+        "form": "spring",
+        "has_female": false
+      },
+      {
+        "form": "summer",
+        "has_female": false
+      },
+      {
+        "form": "winter",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "586",
+    "name": "Sawsbuck",
+    "slug": "sawsbuck",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "autumn",
+        "has_female": false
+      },
+      {
+        "form": "spring",
+        "has_female": false
+      },
+      {
+        "form": "summer",
+        "has_female": false
+      },
+      {
+        "form": "winter",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "587",
+    "name": "Emolga",
+    "slug": "emolga",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "588",
+    "name": "Karrablast",
+    "slug": "karrablast",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "589",
+    "name": "Escavalier",
+    "slug": "escavalier",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "590",
+    "name": "Foongus",
+    "slug": "foongus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "591",
+    "name": "Amoonguss",
+    "slug": "amoonguss",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "592",
+    "name": "Frillish",
+    "slug": "frillish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": true
+      }
+    ]
+  },
+  {
+    "dexno": "593",
+    "name": "Jellicent",
+    "slug": "jellicent",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": true
+      }
+    ]
+  },
+  {
+    "dexno": "594",
+    "name": "Alomomola",
+    "slug": "alomomola",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "595",
+    "name": "Joltik",
+    "slug": "joltik",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "596",
+    "name": "Galvantula",
+    "slug": "galvantula",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "597",
+    "name": "Ferroseed",
+    "slug": "ferroseed",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "598",
+    "name": "Ferrothorn",
+    "slug": "ferrothorn",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "599",
+    "name": "Klink",
+    "slug": "klink",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "600",
+    "name": "Klang",
+    "slug": "klang",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "601",
+    "name": "Klinklang",
+    "slug": "klinklang",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "602",
+    "name": "Tynamo",
+    "slug": "tynamo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "603",
+    "name": "Eelektrik",
+    "slug": "eelektrik",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "604",
+    "name": "Eelektross",
+    "slug": "eelektross",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "605",
+    "name": "Elgyem",
+    "slug": "elgyem",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "606",
+    "name": "Beheeyem",
+    "slug": "beheeyem",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "607",
+    "name": "Litwick",
+    "slug": "litwick",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "608",
+    "name": "Lampent",
+    "slug": "lampent",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "609",
+    "name": "Chandelure",
+    "slug": "chandelure",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "610",
+    "name": "Axew",
+    "slug": "axew",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "611",
+    "name": "Fraxure",
+    "slug": "fraxure",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "612",
+    "name": "Haxorus",
+    "slug": "haxorus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "613",
+    "name": "Cubchoo",
+    "slug": "cubchoo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "614",
+    "name": "Beartic",
+    "slug": "beartic",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "615",
+    "name": "Cryogonal",
+    "slug": "cryogonal",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "616",
+    "name": "Shelmet",
+    "slug": "shelmet",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "617",
+    "name": "Accelgor",
+    "slug": "accelgor",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "618",
+    "name": "Stunfisk",
+    "slug": "stunfisk",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "galar",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "619",
+    "name": "Mienfoo",
+    "slug": "mienfoo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "620",
+    "name": "Mienshao",
+    "slug": "mienshao",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "621",
+    "name": "Druddigon",
+    "slug": "druddigon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "622",
+    "name": "Golett",
+    "slug": "golett",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "623",
+    "name": "Golurk",
+    "slug": "golurk",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "624",
+    "name": "Pawniard",
+    "slug": "pawniard",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "625",
+    "name": "Bisharp",
+    "slug": "bisharp",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "626",
+    "name": "Bouffalant",
+    "slug": "bouffalant",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "627",
+    "name": "Rufflet",
+    "slug": "rufflet",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "628",
+    "name": "Braviary",
+    "slug": "braviary",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "629",
+    "name": "Vullaby",
+    "slug": "vullaby",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "630",
+    "name": "Mandibuzz",
+    "slug": "mandibuzz",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "631",
+    "name": "Heatmor",
+    "slug": "heatmor",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "632",
+    "name": "Durant",
+    "slug": "durant",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "633",
+    "name": "Deino",
+    "slug": "deino",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "634",
+    "name": "Zweilous",
+    "slug": "zweilous",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "635",
+    "name": "Hydreigon",
+    "slug": "hydreigon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "636",
+    "name": "Larvesta",
+    "slug": "larvesta",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "637",
+    "name": "Volcarona",
+    "slug": "volcarona",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "638",
+    "name": "Cobalion",
+    "slug": "cobalion",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "639",
+    "name": "Terrakion",
+    "slug": "terrakion",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "640",
+    "name": "Virizion",
+    "slug": "virizion",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "641",
+    "name": "Tornadus",
+    "slug": "tornadus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "incarnate",
+        "has_female": false
+      },
+      {
+        "form": "therian",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "642",
+    "name": "Thundurus",
+    "slug": "thundurus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "incarnate",
+        "has_female": false
+      },
+      {
+        "form": "therian",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "643",
+    "name": "Reshiram",
+    "slug": "reshiram",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "644",
+    "name": "Zekrom",
+    "slug": "zekrom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "645",
+    "name": "Landorus",
+    "slug": "landorus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "incarnate",
+        "has_female": false
+      },
+      {
+        "form": "therian",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "646",
+    "name": "Kyurem",
+    "slug": "kyurem",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "black",
+        "has_female": false
+      },
+      {
+        "form": "white",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "647",
+    "name": "Keldeo",
+    "slug": "keldeo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "ordinary",
+        "has_female": false
+      },
+      {
+        "form": "resolute",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "648",
+    "name": "Meloetta",
+    "slug": "meloetta",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "aria",
+        "has_female": false
+      },
+      {
+        "form": "pirouette",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "649",
+    "name": "Genesect",
+    "slug": "genesect",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "burn",
+        "has_female": false
+      },
+      {
+        "form": "chill",
+        "has_female": false
+      },
+      {
+        "form": "douse",
+        "has_female": false
+      },
+      {
+        "form": "shock",
+        "has_female": false
+      },
+      {
+        "form": "standard",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "650",
+    "name": "Chespin",
+    "slug": "chespin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "651",
+    "name": "Quilladin",
+    "slug": "quilladin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "652",
+    "name": "Chesnaught",
+    "slug": "chesnaught",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "653",
+    "name": "Fennekin",
+    "slug": "fennekin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "654",
+    "name": "Braixen",
+    "slug": "braixen",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "655",
+    "name": "Delphox",
+    "slug": "delphox",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "656",
+    "name": "Froakie",
+    "slug": "froakie",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "657",
+    "name": "Frogadier",
+    "slug": "frogadier",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "658",
+    "name": "Greninja",
+    "slug": "greninja",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "ash",
+        "has_female": false
+      },
+      {
+        "form": "battle-bond",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "659",
+    "name": "Bunnelby",
+    "slug": "bunnelby",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "660",
+    "name": "Diggersby",
+    "slug": "diggersby",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "661",
+    "name": "Fletchling",
+    "slug": "fletchling",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "662",
+    "name": "Fletchinder",
+    "slug": "fletchinder",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "663",
+    "name": "Talonflame",
+    "slug": "talonflame",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "664",
+    "name": "Scatterbug",
+    "slug": "scatterbug",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "archipelago",
+        "has_female": false
+      },
+      {
+        "form": "continental",
+        "has_female": false
+      },
+      {
+        "form": "elegant",
+        "has_female": false
+      },
+      {
+        "form": "fancy",
+        "has_female": false
+      },
+      {
+        "form": "garden",
+        "has_female": false
+      },
+      {
+        "form": "high-plains",
+        "has_female": false
+      },
+      {
+        "form": "icy-snow",
+        "has_female": false
+      },
+      {
+        "form": "jungle",
+        "has_female": false
+      },
+      {
+        "form": "marine",
+        "has_female": false
+      },
+      {
+        "form": "meadow",
+        "has_female": false
+      },
+      {
+        "form": "modern",
+        "has_female": false
+      },
+      {
+        "form": "monsoon",
+        "has_female": false
+      },
+      {
+        "form": "ocean",
+        "has_female": false
+      },
+      {
+        "form": "poke-ball",
+        "has_female": false
+      },
+      {
+        "form": "polar",
+        "has_female": false
+      },
+      {
+        "form": "river",
+        "has_female": false
+      },
+      {
+        "form": "sandstorm",
+        "has_female": false
+      },
+      {
+        "form": "savanna",
+        "has_female": false
+      },
+      {
+        "form": "sun",
+        "has_female": false
+      },
+      {
+        "form": "tundra",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "665",
+    "name": "Spewpa",
+    "slug": "spewpa",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "archipelago",
+        "has_female": false
+      },
+      {
+        "form": "continental",
+        "has_female": false
+      },
+      {
+        "form": "elegant",
+        "has_female": false
+      },
+      {
+        "form": "fancy",
+        "has_female": false
+      },
+      {
+        "form": "garden",
+        "has_female": false
+      },
+      {
+        "form": "high-plains",
+        "has_female": false
+      },
+      {
+        "form": "icy-snow",
+        "has_female": false
+      },
+      {
+        "form": "jungle",
+        "has_female": false
+      },
+      {
+        "form": "marine",
+        "has_female": false
+      },
+      {
+        "form": "meadow",
+        "has_female": false
+      },
+      {
+        "form": "modern",
+        "has_female": false
+      },
+      {
+        "form": "monsoon",
+        "has_female": false
+      },
+      {
+        "form": "ocean",
+        "has_female": false
+      },
+      {
+        "form": "poke-ball",
+        "has_female": false
+      },
+      {
+        "form": "polar",
+        "has_female": false
+      },
+      {
+        "form": "river",
+        "has_female": false
+      },
+      {
+        "form": "sandstorm",
+        "has_female": false
+      },
+      {
+        "form": "savanna",
+        "has_female": false
+      },
+      {
+        "form": "sun",
+        "has_female": false
+      },
+      {
+        "form": "tundra",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "666",
+    "name": "Vivillon",
+    "slug": "vivillon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "archipelago",
+        "has_female": false
+      },
+      {
+        "form": "continental",
+        "has_female": false
+      },
+      {
+        "form": "elegant",
+        "has_female": false
+      },
+      {
+        "form": "fancy",
+        "has_female": false
+      },
+      {
+        "form": "garden",
+        "has_female": false
+      },
+      {
+        "form": "high-plains",
+        "has_female": false
+      },
+      {
+        "form": "icy-snow",
+        "has_female": false
+      },
+      {
+        "form": "jungle",
+        "has_female": false
+      },
+      {
+        "form": "marine",
+        "has_female": false
+      },
+      {
+        "form": "meadow",
+        "has_female": false
+      },
+      {
+        "form": "modern",
+        "has_female": false
+      },
+      {
+        "form": "monsoon",
+        "has_female": false
+      },
+      {
+        "form": "ocean",
+        "has_female": false
+      },
+      {
+        "form": "poke-ball",
+        "has_female": false
+      },
+      {
+        "form": "polar",
+        "has_female": false
+      },
+      {
+        "form": "river",
+        "has_female": false
+      },
+      {
+        "form": "sandstorm",
+        "has_female": false
+      },
+      {
+        "form": "savanna",
+        "has_female": false
+      },
+      {
+        "form": "sun",
+        "has_female": false
+      },
+      {
+        "form": "tundra",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "667",
+    "name": "Litleo",
+    "slug": "litleo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "668",
+    "name": "Pyroar",
+    "slug": "pyroar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": true
+      }
+    ]
+  },
+  {
+    "dexno": "669",
+    "name": "Flab\u00e9b\u00e9",
+    "slug": "flabebe",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "blue",
+        "has_female": false
+      },
+      {
+        "form": "orange",
+        "has_female": false
+      },
+      {
+        "form": "red",
+        "has_female": false
+      },
+      {
+        "form": "white",
+        "has_female": false
+      },
+      {
+        "form": "yellow",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "670",
+    "name": "Floette",
+    "slug": "floette",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "blue",
+        "has_female": false
+      },
+      {
+        "form": "eternal",
+        "has_female": false
+      },
+      {
+        "form": "orange",
+        "has_female": false
+      },
+      {
+        "form": "red",
+        "has_female": false
+      },
+      {
+        "form": "white",
+        "has_female": false
+      },
+      {
+        "form": "yellow",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "671",
+    "name": "Florges",
+    "slug": "florges",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "blue",
+        "has_female": false
+      },
+      {
+        "form": "orange",
+        "has_female": false
+      },
+      {
+        "form": "red",
+        "has_female": false
+      },
+      {
+        "form": "white",
+        "has_female": false
+      },
+      {
+        "form": "yellow",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "672",
+    "name": "Skiddo",
+    "slug": "skiddo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "673",
+    "name": "Gogoat",
+    "slug": "gogoat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "674",
+    "name": "Pancham",
+    "slug": "pancham",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "675",
+    "name": "Pangoro",
+    "slug": "pangoro",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "676",
+    "name": "Furfrou",
+    "slug": "furfrou",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "dandy",
+        "has_female": false
+      },
+      {
+        "form": "debutante",
+        "has_female": false
+      },
+      {
+        "form": "diamond",
+        "has_female": false
+      },
+      {
+        "form": "heart",
+        "has_female": false
+      },
+      {
+        "form": "kabuki",
+        "has_female": false
+      },
+      {
+        "form": "la-reine",
+        "has_female": false
+      },
+      {
+        "form": "matron",
+        "has_female": false
+      },
+      {
+        "form": "natural",
+        "has_female": false
+      },
+      {
+        "form": "pharaoh",
+        "has_female": false
+      },
+      {
+        "form": "star",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "677",
+    "name": "Espurr",
+    "slug": "espurr",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "678",
+    "name": "Meowstic",
+    "slug": "meowstic",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": true
+      }
+    ]
+  },
+  {
+    "dexno": "679",
+    "name": "Honedge",
+    "slug": "honedge",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "680",
+    "name": "Doublade",
+    "slug": "doublade",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "681",
+    "name": "Aegislash",
+    "slug": "aegislash",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "blade",
+        "has_female": false
+      },
+      {
+        "form": "shield",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "682",
+    "name": "Spritzee",
+    "slug": "spritzee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "683",
+    "name": "Aromatisse",
+    "slug": "aromatisse",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "684",
+    "name": "Swirlix",
+    "slug": "swirlix",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "685",
+    "name": "Slurpuff",
+    "slug": "slurpuff",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "686",
+    "name": "Inkay",
+    "slug": "inkay",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "687",
+    "name": "Malamar",
+    "slug": "malamar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "688",
+    "name": "Binacle",
+    "slug": "binacle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "689",
+    "name": "Barbaracle",
+    "slug": "barbaracle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "690",
+    "name": "Skrelp",
+    "slug": "skrelp",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "691",
+    "name": "Dragalge",
+    "slug": "dragalge",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "692",
+    "name": "Clauncher",
+    "slug": "clauncher",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "693",
+    "name": "Clawitzer",
+    "slug": "clawitzer",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "694",
+    "name": "Helioptile",
+    "slug": "helioptile",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "695",
+    "name": "Heliolisk",
+    "slug": "heliolisk",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "696",
+    "name": "Tyrunt",
+    "slug": "tyrunt",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "697",
+    "name": "Tyrantrum",
+    "slug": "tyrantrum",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "698",
+    "name": "Amaura",
+    "slug": "amaura",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "699",
+    "name": "Aurorus",
+    "slug": "aurorus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "700",
+    "name": "Sylveon",
+    "slug": "sylveon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "701",
+    "name": "Hawlucha",
+    "slug": "hawlucha",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "702",
+    "name": "Dedenne",
+    "slug": "dedenne",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "703",
+    "name": "Carbink",
+    "slug": "carbink",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "704",
+    "name": "Goomy",
+    "slug": "goomy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "705",
+    "name": "Sliggoo",
+    "slug": "sliggoo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "706",
+    "name": "Goodra",
+    "slug": "goodra",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "707",
+    "name": "Klefki",
+    "slug": "klefki",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "708",
+    "name": "Phantump",
+    "slug": "phantump",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "709",
+    "name": "Trevenant",
+    "slug": "trevenant",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "710",
+    "name": "Pumpkaboo",
+    "slug": "pumpkaboo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "average",
+        "has_female": false
+      },
+      {
+        "form": "large",
+        "has_female": false
+      },
+      {
+        "form": "small",
+        "has_female": false
+      },
+      {
+        "form": "super",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "711",
+    "name": "Gourgeist",
+    "slug": "gourgeist",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "average",
+        "has_female": false
+      },
+      {
+        "form": "large",
+        "has_female": false
+      },
+      {
+        "form": "small",
+        "has_female": false
+      },
+      {
+        "form": "super",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "712",
+    "name": "Bergmite",
+    "slug": "bergmite",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "713",
+    "name": "Avalugg",
+    "slug": "avalugg",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "714",
+    "name": "Noibat",
+    "slug": "noibat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "715",
+    "name": "Noivern",
+    "slug": "noivern",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "716",
+    "name": "Xerneas",
+    "slug": "xerneas",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "active",
+        "has_female": false
+      },
+      {
+        "form": "neutral",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "717",
+    "name": "Yveltal",
+    "slug": "yveltal",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "718",
+    "name": "Zygarde",
+    "slug": "zygarde",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "10",
+        "has_female": false
+      },
+      {
+        "form": "50",
+        "has_female": false
+      },
+      {
+        "form": "complete",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "719",
+    "name": "Diancie",
+    "slug": "diancie",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "mega",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "720",
+    "name": "Hoopa",
+    "slug": "hoopa",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "unbound",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "721",
+    "name": "Volcanion",
+    "slug": "volcanion",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "722",
+    "name": "Rowlet",
+    "slug": "rowlet",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "723",
+    "name": "Dartrix",
+    "slug": "dartrix",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "724",
+    "name": "Decidueye",
+    "slug": "decidueye",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "725",
+    "name": "Litten",
+    "slug": "litten",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "726",
+    "name": "Torracat",
+    "slug": "torracat",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "727",
+    "name": "Incineroar",
+    "slug": "incineroar",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "728",
+    "name": "Popplio",
+    "slug": "popplio",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "729",
+    "name": "Brionne",
+    "slug": "brionne",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "730",
+    "name": "Primarina",
+    "slug": "primarina",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "731",
+    "name": "Pikipek",
+    "slug": "pikipek",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "732",
+    "name": "Trumbeak",
+    "slug": "trumbeak",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "733",
+    "name": "Toucannon",
+    "slug": "toucannon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "734",
+    "name": "Yungoos",
+    "slug": "yungoos",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "735",
+    "name": "Gumshoos",
+    "slug": "gumshoos",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "736",
+    "name": "Grubbin",
+    "slug": "grubbin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "737",
+    "name": "Charjabug",
+    "slug": "charjabug",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "738",
+    "name": "Vikavolt",
+    "slug": "vikavolt",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "739",
+    "name": "Crabrawler",
+    "slug": "crabrawler",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "740",
+    "name": "Crabominable",
+    "slug": "crabominable",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "741",
+    "name": "Oricorio",
+    "slug": "oricorio",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "baile",
+        "has_female": false
+      },
+      {
+        "form": "pau",
+        "has_female": false
+      },
+      {
+        "form": "pom-pom",
+        "has_female": false
+      },
+      {
+        "form": "sensu",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "742",
+    "name": "Cutiefly",
+    "slug": "cutiefly",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "743",
+    "name": "Ribombee",
+    "slug": "ribombee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "744",
+    "name": "Rockruff",
+    "slug": "rockruff",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "own-tempo",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "745",
+    "name": "Lycanroc",
+    "slug": "lycanroc",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "dusk",
+        "has_female": false
+      },
+      {
+        "form": "midday",
+        "has_female": false
+      },
+      {
+        "form": "midnight",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "746",
+    "name": "Wishiwashi",
+    "slug": "wishiwashi",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "school",
+        "has_female": false
+      },
+      {
+        "form": "solo",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "747",
+    "name": "Mareanie",
+    "slug": "mareanie",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "748",
+    "name": "Toxapex",
+    "slug": "toxapex",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "749",
+    "name": "Mudbray",
+    "slug": "mudbray",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "750",
+    "name": "Mudsdale",
+    "slug": "mudsdale",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "751",
+    "name": "Dewpider",
+    "slug": "dewpider",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "752",
+    "name": "Araquanid",
+    "slug": "araquanid",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "753",
+    "name": "Fomantis",
+    "slug": "fomantis",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "754",
+    "name": "Lurantis",
+    "slug": "lurantis",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "755",
+    "name": "Morelull",
+    "slug": "morelull",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "756",
+    "name": "Shiinotic",
+    "slug": "shiinotic",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "757",
+    "name": "Salandit",
+    "slug": "salandit",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "758",
+    "name": "Salazzle",
+    "slug": "salazzle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "759",
+    "name": "Stufful",
+    "slug": "stufful",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "760",
+    "name": "Bewear",
+    "slug": "bewear",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "761",
+    "name": "Bounsweet",
+    "slug": "bounsweet",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "762",
+    "name": "Steenee",
+    "slug": "steenee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "763",
+    "name": "Tsareena",
+    "slug": "tsareena",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "764",
+    "name": "Comfey",
+    "slug": "comfey",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "765",
+    "name": "Oranguru",
+    "slug": "oranguru",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "766",
+    "name": "Passimian",
+    "slug": "passimian",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "767",
+    "name": "Wimpod",
+    "slug": "wimpod",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "768",
+    "name": "Golisopod",
+    "slug": "golisopod",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "769",
+    "name": "Sandygast",
+    "slug": "sandygast",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "770",
+    "name": "Palossand",
+    "slug": "palossand",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "771",
+    "name": "Pyukumuku",
+    "slug": "pyukumuku",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "772",
+    "name": "Type: Null",
+    "slug": "type-null",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "773",
+    "name": "Silvally",
+    "slug": "silvally",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "bug",
+        "has_female": false
+      },
+      {
+        "form": "dark",
+        "has_female": false
+      },
+      {
+        "form": "dragon",
+        "has_female": false
+      },
+      {
+        "form": "electric",
+        "has_female": false
+      },
+      {
+        "form": "fairy",
+        "has_female": false
+      },
+      {
+        "form": "fighting",
+        "has_female": false
+      },
+      {
+        "form": "fire",
+        "has_female": false
+      },
+      {
+        "form": "flying",
+        "has_female": false
+      },
+      {
+        "form": "ghost",
+        "has_female": false
+      },
+      {
+        "form": "grass",
+        "has_female": false
+      },
+      {
+        "form": "ground",
+        "has_female": false
+      },
+      {
+        "form": "ice",
+        "has_female": false
+      },
+      {
+        "form": "normal",
+        "has_female": false
+      },
+      {
+        "form": "poison",
+        "has_female": false
+      },
+      {
+        "form": "psychic",
+        "has_female": false
+      },
+      {
+        "form": "rock",
+        "has_female": false
+      },
+      {
+        "form": "steel",
+        "has_female": false
+      },
+      {
+        "form": "water",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "774",
+    "name": "Minior",
+    "slug": "minior",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "blue",
+        "has_female": false
+      },
+      {
+        "form": "blue-gen7",
+        "has_female": false
+      },
+      {
+        "form": "blue-meteor",
+        "has_female": false
+      },
+      {
+        "form": "green",
+        "has_female": false
+      },
+      {
+        "form": "green-gen7",
+        "has_female": false
+      },
+      {
+        "form": "green-meteor",
+        "has_female": false
+      },
+      {
+        "form": "indigo",
+        "has_female": false
+      },
+      {
+        "form": "indigo-gen7",
+        "has_female": false
+      },
+      {
+        "form": "indigo-meteor",
+        "has_female": false
+      },
+      {
+        "form": "orange",
+        "has_female": false
+      },
+      {
+        "form": "orange-gen7",
+        "has_female": false
+      },
+      {
+        "form": "orange-meteor",
+        "has_female": false
+      },
+      {
+        "form": "red",
+        "has_female": false
+      },
+      {
+        "form": "red-gen7",
+        "has_female": false
+      },
+      {
+        "form": "red-meteor",
+        "has_female": false
+      },
+      {
+        "form": "violet",
+        "has_female": false
+      },
+      {
+        "form": "violet-gen7",
+        "has_female": false
+      },
+      {
+        "form": "violet-meteor",
+        "has_female": false
+      },
+      {
+        "form": "yellow",
+        "has_female": false
+      },
+      {
+        "form": "yellow-gen7",
+        "has_female": false
+      },
+      {
+        "form": "yellow-meteor",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "775",
+    "name": "Komala",
+    "slug": "komala",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "776",
+    "name": "Turtonator",
+    "slug": "turtonator",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "777",
+    "name": "Togedemaru",
+    "slug": "togedemaru",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "778",
+    "name": "Mimikyu",
+    "slug": "mimikyu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "busted",
+        "has_female": false
+      },
+      {
+        "form": "disguised",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      },
+      {
+        "form": "totem-busted",
+        "has_female": false
+      },
+      {
+        "form": "totem-disguised",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "779",
+    "name": "Bruxish",
+    "slug": "bruxish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "780",
+    "name": "Drampa",
+    "slug": "drampa",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "781",
+    "name": "Dhelmise",
+    "slug": "dhelmise",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "782",
+    "name": "Jangmo-o",
+    "slug": "jangmo-o",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "783",
+    "name": "Hakamo-o",
+    "slug": "hakamo-o",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "784",
+    "name": "Kommo-o",
+    "slug": "kommo-o",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "totem",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "785",
+    "name": "Tapu Koko",
+    "slug": "tapu-koko",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "786",
+    "name": "Tapu Lele",
+    "slug": "tapu-lele",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "787",
+    "name": "Tapu Bulu",
+    "slug": "tapu-bulu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "788",
+    "name": "Tapu Fini",
+    "slug": "tapu-fini",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "789",
+    "name": "Cosmog",
+    "slug": "cosmog",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "790",
+    "name": "Cosmoem",
+    "slug": "cosmoem",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "791",
+    "name": "Solgaleo",
+    "slug": "solgaleo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "792",
+    "name": "Lunala",
+    "slug": "lunala",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "793",
+    "name": "Nihilego",
+    "slug": "nihilego",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "794",
+    "name": "Buzzwole",
+    "slug": "buzzwole",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "795",
+    "name": "Pheromosa",
+    "slug": "pheromosa",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "796",
+    "name": "Xurkitree",
+    "slug": "xurkitree",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "797",
+    "name": "Celesteela",
+    "slug": "celesteela",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "798",
+    "name": "Kartana",
+    "slug": "kartana",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "799",
+    "name": "Guzzlord",
+    "slug": "guzzlord",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "800",
+    "name": "Necrozma",
+    "slug": "necrozma",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "dawn",
+        "has_female": false
+      },
+      {
+        "form": "dusk",
+        "has_female": false
+      },
+      {
+        "form": "ultra",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "801",
+    "name": "Magearna",
+    "slug": "magearna",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "original",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "802",
+    "name": "Marshadow",
+    "slug": "marshadow",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gen7",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "803",
+    "name": "Poipole",
+    "slug": "poipole",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "804",
+    "name": "Naganadel",
+    "slug": "naganadel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "805",
+    "name": "Stakataka",
+    "slug": "stakataka",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "806",
+    "name": "Blacephalon",
+    "slug": "blacephalon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "807",
+    "name": "Zeraora",
+    "slug": "zeraora",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "808",
+    "name": "Meltan",
+    "slug": "meltan",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "809",
+    "name": "Melmetal",
+    "slug": "melmetal",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "810",
+    "name": "Grookey",
+    "slug": "grookey",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "811",
+    "name": "Thwackey",
+    "slug": "thwackey",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "812",
+    "name": "Rillaboom",
+    "slug": "rillaboom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "813",
+    "name": "Scorbunny",
+    "slug": "scorbunny",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "814",
+    "name": "Raboot",
+    "slug": "raboot",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "815",
+    "name": "Cinderace",
+    "slug": "cinderace",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "816",
+    "name": "Sobble",
+    "slug": "sobble",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "817",
+    "name": "Drizzile",
+    "slug": "drizzile",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "818",
+    "name": "Inteleon",
+    "slug": "inteleon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "819",
+    "name": "Skwovet",
+    "slug": "skwovet",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "820",
+    "name": "Greedent",
+    "slug": "greedent",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "821",
+    "name": "Rookidee",
+    "slug": "rookidee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "822",
+    "name": "Corvisquire",
+    "slug": "corvisquire",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "823",
+    "name": "Corviknight",
+    "slug": "corviknight",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "824",
+    "name": "Blipbug",
+    "slug": "blipbug",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "825",
+    "name": "Dottler",
+    "slug": "dottler",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "826",
+    "name": "Orbeetle",
+    "slug": "orbeetle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "827",
+    "name": "Nickit",
+    "slug": "nickit",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "828",
+    "name": "Thievul",
+    "slug": "thievul",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "829",
+    "name": "Gossifleur",
+    "slug": "gossifleur",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "830",
+    "name": "Eldegoss",
+    "slug": "eldegoss",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "831",
+    "name": "Wooloo",
+    "slug": "wooloo",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "832",
+    "name": "Dubwool",
+    "slug": "dubwool",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "833",
+    "name": "Chewtle",
+    "slug": "chewtle",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "834",
+    "name": "Drednaw",
+    "slug": "drednaw",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "835",
+    "name": "Yamper",
+    "slug": "yamper",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "836",
+    "name": "Boltund",
+    "slug": "boltund",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "837",
+    "name": "Rolycoly",
+    "slug": "rolycoly",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "838",
+    "name": "Carkol",
+    "slug": "carkol",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "839",
+    "name": "Coalossal",
+    "slug": "coalossal",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "840",
+    "name": "Applin",
+    "slug": "applin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "841",
+    "name": "Flapple",
+    "slug": "flapple",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "842",
+    "name": "Appletun",
+    "slug": "appletun",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "843",
+    "name": "Silicobra",
+    "slug": "silicobra",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "844",
+    "name": "Sandaconda",
+    "slug": "sandaconda",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "845",
+    "name": "Cramorant",
+    "slug": "cramorant",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gorging",
+        "has_female": false
+      },
+      {
+        "form": "gulping",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "846",
+    "name": "Arrokuda",
+    "slug": "arrokuda",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "847",
+    "name": "Barraskewda",
+    "slug": "barraskewda",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "848",
+    "name": "Toxel",
+    "slug": "toxel",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "849",
+    "name": "Toxtricity",
+    "slug": "toxtricity",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "amped",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      },
+      {
+        "form": "low-key",
+        "has_female": false
+      },
+      {
+        "form": "low-key-gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "850",
+    "name": "Sizzlipede",
+    "slug": "sizzlipede",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "851",
+    "name": "Centiskorch",
+    "slug": "centiskorch",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "852",
+    "name": "Clobbopus",
+    "slug": "clobbopus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "853",
+    "name": "Grapploct",
+    "slug": "grapploct",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "854",
+    "name": "Sinistea",
+    "slug": "sinistea",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "855",
+    "name": "Polteageist",
+    "slug": "polteageist",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "856",
+    "name": "Hatenna",
+    "slug": "hatenna",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "857",
+    "name": "Hattrem",
+    "slug": "hattrem",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "858",
+    "name": "Hatterene",
+    "slug": "hatterene",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "859",
+    "name": "Impidimp",
+    "slug": "impidimp",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "860",
+    "name": "Morgrem",
+    "slug": "morgrem",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "861",
+    "name": "Grimmsnarl",
+    "slug": "grimmsnarl",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "862",
+    "name": "Obstagoon",
+    "slug": "obstagoon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "863",
+    "name": "Perrserker",
+    "slug": "perrserker",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "864",
+    "name": "Cursola",
+    "slug": "cursola",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "865",
+    "name": "Sirfetch'd",
+    "slug": "sirfetchd",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "866",
+    "name": "Mr. Rime",
+    "slug": "mr-rime",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "867",
+    "name": "Runerigus",
+    "slug": "runerigus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "868",
+    "name": "Milcery",
+    "slug": "milcery",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "869",
+    "name": "Alcremie",
+    "slug": "alcremie",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "caramel-swirl-berry",
+        "has_female": false
+      },
+      {
+        "form": "caramel-swirl-clover",
+        "has_female": false
+      },
+      {
+        "form": "caramel-swirl-flower",
+        "has_female": false
+      },
+      {
+        "form": "caramel-swirl-love",
+        "has_female": false
+      },
+      {
+        "form": "caramel-swirl-plain",
+        "has_female": false
+      },
+      {
+        "form": "caramel-swirl-ribbon",
+        "has_female": false
+      },
+      {
+        "form": "caramel-swirl-star",
+        "has_female": false
+      },
+      {
+        "form": "caramel-swirl-strawberry",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      },
+      {
+        "form": "lemon-cream-berry",
+        "has_female": false
+      },
+      {
+        "form": "lemon-cream-clover",
+        "has_female": false
+      },
+      {
+        "form": "lemon-cream-flower",
+        "has_female": false
+      },
+      {
+        "form": "lemon-cream-love",
+        "has_female": false
+      },
+      {
+        "form": "lemon-cream-plain",
+        "has_female": false
+      },
+      {
+        "form": "lemon-cream-ribbon",
+        "has_female": false
+      },
+      {
+        "form": "lemon-cream-star",
+        "has_female": false
+      },
+      {
+        "form": "lemon-cream-strawberry",
+        "has_female": false
+      },
+      {
+        "form": "matcha-cream-berry",
+        "has_female": false
+      },
+      {
+        "form": "matcha-cream-clover",
+        "has_female": false
+      },
+      {
+        "form": "matcha-cream-flower",
+        "has_female": false
+      },
+      {
+        "form": "matcha-cream-love",
+        "has_female": false
+      },
+      {
+        "form": "matcha-cream-plain",
+        "has_female": false
+      },
+      {
+        "form": "matcha-cream-ribbon",
+        "has_female": false
+      },
+      {
+        "form": "matcha-cream-star",
+        "has_female": false
+      },
+      {
+        "form": "matcha-cream-strawberry",
+        "has_female": false
+      },
+      {
+        "form": "mint-cream-berry",
+        "has_female": false
+      },
+      {
+        "form": "mint-cream-clover",
+        "has_female": false
+      },
+      {
+        "form": "mint-cream-flower",
+        "has_female": false
+      },
+      {
+        "form": "mint-cream-love",
+        "has_female": false
+      },
+      {
+        "form": "mint-cream-plain",
+        "has_female": false
+      },
+      {
+        "form": "mint-cream-ribbon",
+        "has_female": false
+      },
+      {
+        "form": "mint-cream-star",
+        "has_female": false
+      },
+      {
+        "form": "mint-cream-strawberry",
+        "has_female": false
+      },
+      {
+        "form": "rainbow-swirl-berry",
+        "has_female": false
+      },
+      {
+        "form": "rainbow-swirl-clover",
+        "has_female": false
+      },
+      {
+        "form": "rainbow-swirl-flower",
+        "has_female": false
+      },
+      {
+        "form": "rainbow-swirl-love",
+        "has_female": false
+      },
+      {
+        "form": "rainbow-swirl-plain",
+        "has_female": false
+      },
+      {
+        "form": "rainbow-swirl-ribbon",
+        "has_female": false
+      },
+      {
+        "form": "rainbow-swirl-star",
+        "has_female": false
+      },
+      {
+        "form": "rainbow-swirl-strawberry",
+        "has_female": false
+      },
+      {
+        "form": "ruby-cream-berry",
+        "has_female": false
+      },
+      {
+        "form": "ruby-cream-clover",
+        "has_female": false
+      },
+      {
+        "form": "ruby-cream-flower",
+        "has_female": false
+      },
+      {
+        "form": "ruby-cream-love",
+        "has_female": false
+      },
+      {
+        "form": "ruby-cream-plain",
+        "has_female": false
+      },
+      {
+        "form": "ruby-cream-ribbon",
+        "has_female": false
+      },
+      {
+        "form": "ruby-cream-star",
+        "has_female": false
+      },
+      {
+        "form": "ruby-cream-strawberry",
+        "has_female": false
+      },
+      {
+        "form": "ruby-swirl-berry",
+        "has_female": false
+      },
+      {
+        "form": "ruby-swirl-clover",
+        "has_female": false
+      },
+      {
+        "form": "ruby-swirl-flower",
+        "has_female": false
+      },
+      {
+        "form": "ruby-swirl-love",
+        "has_female": false
+      },
+      {
+        "form": "ruby-swirl-plain",
+        "has_female": false
+      },
+      {
+        "form": "ruby-swirl-ribbon",
+        "has_female": false
+      },
+      {
+        "form": "ruby-swirl-star",
+        "has_female": false
+      },
+      {
+        "form": "ruby-swirl-strawberry",
+        "has_female": false
+      },
+      {
+        "form": "salted-cream-berry",
+        "has_female": false
+      },
+      {
+        "form": "salted-cream-clover",
+        "has_female": false
+      },
+      {
+        "form": "salted-cream-flower",
+        "has_female": false
+      },
+      {
+        "form": "salted-cream-love",
+        "has_female": false
+      },
+      {
+        "form": "salted-cream-plain",
+        "has_female": false
+      },
+      {
+        "form": "salted-cream-ribbon",
+        "has_female": false
+      },
+      {
+        "form": "salted-cream-star",
+        "has_female": false
+      },
+      {
+        "form": "salted-cream-strawberry",
+        "has_female": false
+      },
+      {
+        "form": "vanilla-cream-berry",
+        "has_female": false
+      },
+      {
+        "form": "vanilla-cream-clover",
+        "has_female": false
+      },
+      {
+        "form": "vanilla-cream-flower",
+        "has_female": false
+      },
+      {
+        "form": "vanilla-cream-love",
+        "has_female": false
+      },
+      {
+        "form": "vanilla-cream-plain",
+        "has_female": false
+      },
+      {
+        "form": "vanilla-cream-ribbon",
+        "has_female": false
+      },
+      {
+        "form": "vanilla-cream-star",
+        "has_female": false
+      },
+      {
+        "form": "vanilla-cream-strawberry",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "870",
+    "name": "Falinks",
+    "slug": "falinks",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "871",
+    "name": "Pincurchin",
+    "slug": "pincurchin",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "872",
+    "name": "Snom",
+    "slug": "snom",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "873",
+    "name": "Frosmoth",
+    "slug": "frosmoth",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "874",
+    "name": "Stonjourner",
+    "slug": "stonjourner",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "875",
+    "name": "Eiscue",
+    "slug": "eiscue",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "ice",
+        "has_female": false
+      },
+      {
+        "form": "noice",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "876",
+    "name": "Indeedee",
+    "slug": "indeedee",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": true
+      }
+    ]
+  },
+  {
+    "dexno": "877",
+    "name": "Morpeko",
+    "slug": "morpeko",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "full-belly",
+        "has_female": false
+      },
+      {
+        "form": "hangry",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "878",
+    "name": "Cufant",
+    "slug": "cufant",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "879",
+    "name": "Copperajah",
+    "slug": "copperajah",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "880",
+    "name": "Dracozolt",
+    "slug": "dracozolt",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "881",
+    "name": "Arctozolt",
+    "slug": "arctozolt",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "882",
+    "name": "Dracovish",
+    "slug": "dracovish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "883",
+    "name": "Arctovish",
+    "slug": "arctovish",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "884",
+    "name": "Duraludon",
+    "slug": "duraludon",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "885",
+    "name": "Dreepy",
+    "slug": "dreepy",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "886",
+    "name": "Drakloak",
+    "slug": "drakloak",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "887",
+    "name": "Dragapult",
+    "slug": "dragapult",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "888",
+    "name": "Zacian",
+    "slug": "zacian",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "crowned",
+        "has_female": false
+      },
+      {
+        "form": "hero-of-many-battles",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "889",
+    "name": "Zamazenta",
+    "slug": "zamazenta",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "crowned",
+        "has_female": false
+      },
+      {
+        "form": "hero-of-many-battles",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "890",
+    "name": "Eternatus",
+    "slug": "eternatus",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "eternamax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "891",
+    "name": "Kubfu",
+    "slug": "kubfu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "892",
+    "name": "Urshifu",
+    "slug": "urshifu",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "gmax",
+        "has_female": false
+      },
+      {
+        "form": "rapid-strike-gmax",
+        "has_female": false
+      },
+      {
+        "form": "single-strike-gmax",
+        "has_female": false
+      }
+    ]
+  },
+  {
+    "dexno": "893",
+    "name": "Zarude",
+    "slug": "zarude",
+    "forms": [
+      {
+        "form": "$",
+        "has_female": false
+      },
+      {
+        "form": "dada",
+        "has_female": false
+      }
+    ]
+  }
+]
