@@ -50,6 +50,12 @@ I'm not taking security into account at all here. This is my dumb pi server for 
 Restart Postgres - ```sudo systemctl restart postgresql```
 
 
+## Postgres Client (Remote)
+* Install client - ```sudo apt-get install -y postgresql-client```
+* Connect - ```psql -U <USER> -p <PORT> -h <HOST>```
+
+
+
 ## Postgres ANSI Driver - Unsupported Type
 If using the Postgres ANSI driver:
 
@@ -71,3 +77,5 @@ cnxn.setencoding(encoding='utf-8')
 select * from pg_settings where name = 'port';
 
 ```
+
+List all tables in schema: ```\dt pokemon.*```

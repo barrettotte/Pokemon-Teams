@@ -1,4 +1,4 @@
--- store teams of 6 pokemon
+-- teams of pokemon
 
 create table pokemon.team (
   team_id serial,

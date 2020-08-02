@@ -1,26 +1,6 @@
-# seed postgres database with pokedex to make searching super easy
+# seed database with pokedex entries and sprite references
 
-import requests, json, time
-import pyodbc  
-
-# seed with pokeapi - Not going to use this I don't think -> missing gen 8 and alt forms.
-def get_from_pokeapi():
-  limit = 100
-  offset = 0
-  url = 'https://pokeapi.co/api/v2/pokemon?limit={}&offset={}'
-  headers = {'Content-Type': 'application/json'}
-  
-  count = 807 # max API dexno
-  resp = requests.get(url.format(100, 0)).json()
-  entries = resp['results']
-
-  for i in range(2, (count // 100) + 1):
-    if ((i+1) * 100) > count:
-      limit = count % i
-    time.sleep(0.5)
-    resp = requests.get(url.format(limit, offset + (i * 100))).json()
-    entries.extend(resp['results'])
-  return entries
+import json, pyodbc
 
 
 # Using pokemon.json from https://raw.githubusercontent.com/msikma/pokesprite/master/data/pokemon.json
@@ -29,18 +9,19 @@ def get_from_pokesprite():
 
   with open('./pokemon.json', 'r') as f:
     for k,v in json.loads(f.read()).items():
-      entry = {'dexno': k, 'name': v['name']['eng'], 'slug': v['slug']['eng'], 'forms': []}
-  
-      # get gender specific forms
-      for fk,fv in v['gen-8']['forms'].items():
-        entry['forms'].append({'form': fk, 'has_female': 'has_female' in fv})
+      entry = {'dexno': k, 'name': v['name']['eng'], 'sprites': []}
 
+      for fk,fv in v['gen-8']['forms'].items():
+        entry['sprites'].append({
+          'form': fk,
+          'has_female': '1' if 'has_female' in fv else '0',
+          'slug': v['slug']['eng']
+        })
       entries.append(entry)
   return entries
 
 
 def get_conn_str(f_path):
-  # simple Postgres config file
   with open(f_path, 'r') as f:
     config = json.load(f)
   return ''.join([
@@ -51,24 +32,55 @@ def get_conn_str(f_path):
     'SERVER={};'.format(config['server']),
     'PORT={}'.format(config['port'])
   ])
+
+
+# there's no way this is efficient at all...
+  # I'm sure there is a genius way to do this, but I'm not worried about it.
+def seed_db(conn, entries):
+  for entry in entries:
+    print('seeding #{}'.format(entry['dexno']))
+
+    # insert dex record
+    cursor = conn.execute(
+      'insert into pokemon.pokedex(dexno,name) values(?,?)', 
+      entry['dexno'], entry['name'])
+
+    # get FK for sprite table
+    cursor = conn.execute('select dex_id from pokemon.pokedex where dexno=? limit 1', entry['dexno'])
+    dex_fk = cursor.fetchone()[0]
+
+    # insert sprite records
+    for sp in entry['sprites']:
+
+      # adjust sprite slug for alt. form
+      slug = sp['slug'] if sp['form'] == '$' else sp['slug'] + '-' + sp['form']
+
+      cursor = conn.execute(
+        'insert into pokemon.sprite(dex_id, form, has_female, slug) values(?,?,?,?)',
+        dex_fk, sp['form'], sp['has_female'], slug)
+
+    cursor.close()
+    conn.commit()
   
 
 def main():
   entries = get_from_pokesprite()
+  
   with open('./seed.json', 'w+') as f:
     f.write(json.dumps(entries, indent=2))
 
-  cs = get_conn_str('./seed-config.json')
-
-  conn = pyodbc.connect(cs)
-  conn.setencoding(encoding='utf-8') # Postgres uses UTF-8
-
-  cursor = conn.execute("select * from wakatime_stats limit 25")
-  for row in cursor.fetchall():
-    print(row)
-  
+  conn = pyodbc.connect(get_conn_str('./seed-config.json'))
+  cursor = conn.execute('select count(*) from pokemon.pokedex')
+  do_seed = cursor.fetchone()[0] == 0
   cursor.close()
-  conn.close()
 
+  if do_seed:
+    print('seeding {} entries!'.format(len(entries)))
+    seed_db(conn, entries) # seeded 1398 sprites, 893 pokemon
+  else:
+    print('already seeded.')
+
+  print('done!')
+  conn.close()
 
 if __name__ == "__main__": main()

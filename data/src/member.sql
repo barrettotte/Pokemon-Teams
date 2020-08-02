@@ -14,9 +14,9 @@ create table pokemon.member (
 
   constraint fk_team 
     foreign key(team_id)
-    references team(team_id),
-    
+    references pokemon.team(team_id),
+
   constraint fk_dex
     foreign key(dex_id)
-    references pokedex(dex_id)
+    references pokemon.pokedex(dex_id)
 );
