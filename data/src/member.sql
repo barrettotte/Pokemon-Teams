@@ -4,6 +4,7 @@ create table pokemon.member (
   member_id serial,
   team_id   serial,
   dex_id    serial,
+  sprite_id serial,
 
   gender    char(1),
   level     int default 50,
@@ -18,5 +19,9 @@ create table pokemon.member (
 
   constraint fk_dex
     foreign key(dex_id)
-    references pokemon.pokedex(dex_id)
+    references pokemon.pokedex(dex_id),
+
+  constraint fk_sprite
+    foreign key(sprite_id)
+    references pokemon.sprite(sprite_id)
 );

@@ -2,8 +2,6 @@
 
 An introductory VueJS app to record Pokemon teams used across various games and/or playthroughs.
 
-This was made to mess around with VueJS and is not a production level application. It runs locally for a single user. I really just wanted to focus on frontend with this project.
-
 
 ## Project Goals
 * Introductory Vue Project
@@ -12,6 +10,11 @@ This was made to mess around with VueJS and is not a production level applicatio
 * External API usage with vue-resource
 * State management with vuex
 * Simple Python backend (Flask) with local Postgres DB on Pi
+
+This was made to mess around with VueJS and is obviously not a production level application.
+For sake of simplicity, this runs locally for a single user. 
+
+**I really just wanted to focus on messing around with the frontend for this project.**
 
 
 ## Credit
