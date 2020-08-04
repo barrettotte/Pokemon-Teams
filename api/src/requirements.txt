@@ -1,5 +1,4 @@
-flask
-flask-sqlalchemy
+Flask
+pyodbc
 psycopg2
 psycopg2-binary
-flask-migrate
