@@ -1,0 +1,68 @@
+# Testing CRUD functionality for Pokemon-Teams API
+
+@base=http://127.0.0.1:5000/api/v1
+
+
+### All Pokedex entries
+GET {{base}}/pokedex/ HTTP/1.1
+Content-Type: application/json
+
+
+### Sprites for charizard (all forms)
+GET {{base}}/sprite/6 HTTP/1.1
+Content-Type: application/json
+
+
+### All teams
+GET {{base}}/team HTTP/1.1
+Content-Type: application/json
+
+
+### Get a team
+GET {{base}}/team/1 HTTP/1.1
+Content-Type: application/json
+
+
+### TODO: Create a team
+POST {{base}}/team HTTP/1.1
+Content-Type: application/json
+
+{
+  "label": "TEST CREATE",
+  "members": [
+    {
+      "dex_id": 123,
+      "sprite_id": 123,
+      "gender": "M",
+      "level": 50,
+      "nickname": "",
+      "shiny": false
+    }
+  ]
+}
+
+
+### TODO: Update a team
+PUT {{base}}/team/2 HTTP/1.1
+Content-Type: application/json
+
+{
+  "label": "UPDATED!",
+  "members": [
+    {
+      "member_id": 123,
+      "dex_id": 123,
+      "sprite_id": 123,
+      "gender": "M",
+      "level": 50,
+      "nickname": "",
+      "shiny": false
+    }
+  ]
+}
+
+
+### TODO: Delete a team
+DELETE {{base}}/team/2 HTTP/1.1
+Content-Type: application/json
+

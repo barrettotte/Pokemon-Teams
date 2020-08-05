@@ -7,9 +7,10 @@ class Database():
     self.conn = pyodbc.connect(conn_str)
   
   def query(self, sql):
-    rows = []
-    try:
-      rows = self.conn.execute(sql).fetchall()
-    except e as Exception:
-      print(f'Error occurred executing query:\n  {sql}')
-    return rows
+    return self.conn.execute(sql).fetchall()
+
+  def bound_query(self, sql, params):
+    return self.conn.execute(sql, params).fetchall()
+
+  def bound_stmt(self, sql, params):
+    self.conn.execute(sql, params)
