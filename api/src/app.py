@@ -1,6 +1,5 @@
-import json
 from database import Database
-from flask import Flask, request
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 app.url_map.strict_slashes = False
@@ -16,7 +15,7 @@ def query_resp(data):
 
 def error_resp(err):
   # yeah yeah yeah, I know. Its terrible to return raw error messages from an API.
-  return {'data': None, 'error': f"error in request: {e}"}, 500
+  return {'data': None, 'error': f"error in request: {err}"}, 500
 
 
 @app.route('/api/v1/')
@@ -33,7 +32,7 @@ def get_pokedex():
     return error_resp(e)
 
 
-@app.route('/api/v1/sprite/<dexno>', methods=['GET'])
+@app.route('/api/v1/sprites/<dexno>', methods=['GET'])
 def get_sprites(dexno):
   try:
     sprites = db.bound_query(' '.join((
@@ -47,7 +46,7 @@ def get_sprites(dexno):
     return error_resp(e)
 
 
-@app.route('/api/v1/team', methods=['GET'])
+@app.route('/api/v1/teams', methods=['GET'])
 def get_teams():
   try:
     teams = db.query('select * from pokemon.team')
@@ -56,7 +55,7 @@ def get_teams():
     return error_resp(e)
 
 
-@app.route('/api/v1/team/<team_id>', methods=['GET'])
+@app.route('/api/v1/teams/<team_id>', methods=['GET'])
 def get_team(team_id):
   try:
     teams = db.bound_query('select * from pokemon.team where team_id = ? limit 1', [team_id])
@@ -75,21 +74,50 @@ def get_team(team_id):
     return error_resp(e)
 
 
-@app.route('/api/v1/team/<team_id>', methods=['POST'])
-def create_team(team_id):
-  return 'TODO:'
+@app.route('/api/v1/teams', methods=['POST'])
+def create_team():
+  try:
+    data = dict(request.json)
+    team_id = db.bound_stmt(' '.join((
+      'insert into pokemon.team (label)',
+      'values (?)',
+      'returning team_id'
+    )), [data['label']] )[0]
+    data['team_id'] = team_id
+
+    for idx,mbr in enumerate(data['members']):
+      mbr_id = db.bound_stmt(' '.join((
+        'insert into pokemon.member (team_id, dex_id, sprite_id, gender, level, nickname, slot, shiny)',
+        'values (?,?,?,?,?,?,?,?)',
+        'returning member_id'
+      )), [
+        team_id, mbr['dex_id'], mbr['sprite_id'], mbr['gender'], 
+        mbr['level'], mbr['nickname'], mbr['slot'], '1' if mbr['shiny'] else '0'
+      ])[0]
+      data['members'][idx]['member_id'] = mbr_id
+    return data, 201
+  except Exception as e:
+    return error_resp(e)
 
 
-@app.route('/api/v1/team/<team_id>', methods=['PUT'])
+@app.route('/api/v1/teams/<team_id>', methods=['PUT'])
 def update_team(team_id):
-  return 'TODO:'
+  # TODO:
+  try:
+    data = request.json
+    print(data)
+    return 'epic', 201
+
+  except Exception as e:
+    return error_resp(e)
 
 
-@app.route('/api/v1/team/<team_id>', methods=['DELETE'])
+@app.route('/api/v1/teams/<team_id>', methods=['DELETE'])
 def delete_team(team_id):
   try:
     db.bound_stmt('delete from pokemon.member where team_id = ?', [team_id])
     db.bound_stmt('delete from pokemon.team where team_id = ?', [team_id])
+    return '', 204
   except Exception as e:
     return error_resp(e)
 

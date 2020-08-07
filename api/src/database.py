@@ -13,4 +13,11 @@ class Database():
     return self.conn.execute(sql, params).fetchall()
 
   def bound_stmt(self, sql, params):
-    self.conn.execute(sql, params)
+    cursor = self.conn.cursor()
+    try:
+      cursor.execute(sql, params)
+      data = cursor.fetchone()
+    except Exception:
+      data = None
+    cursor.commit()
+    return data

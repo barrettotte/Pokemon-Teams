@@ -6,6 +6,7 @@ create table pokemon.member (
   dex_id    serial,
   sprite_id serial,
 
+  slot      smallint, -- 6 slots in a team
   gender    char(1),
   level     int default 50,
   nickname  varchar(12),
