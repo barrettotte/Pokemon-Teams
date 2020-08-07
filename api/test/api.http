@@ -8,8 +8,8 @@ GET {{base}}/pokedex/ HTTP/1.1
 Content-Type: application/json
 
 
-### Sprites for charizard (all forms)
-GET {{base}}/sprites/6 HTTP/1.1
+### Get sprites for pokedex entry
+GET {{base}}/pokedex/647/sprites HTTP/1.1
 Content-Type: application/json
 
 
@@ -20,6 +20,11 @@ Content-Type: application/json
 
 ### Get a team
 GET {{base}}/teams/1 HTTP/1.1
+Content-Type: application/json
+
+
+### Get a team that doesn't exist (return 404)
+GET {{base}}/teams/900 HTTP/1.1
 Content-Type: application/json
 
 
@@ -43,23 +48,21 @@ Content-Type: application/json
 }
 
 
-### TODO: Update a team
-PUT {{base}}/teams/2 HTTP/1.1
+### Update a team
+PUT {{base}}/teams/26 HTTP/1.1
 Content-Type: application/json
 
 {
-  "label": "UPDATED!",
-  "members": [
-    {
-      "member_id": 123,
-      "dex_id": 123,
-      "sprite_id": 123,
-      "gender": "M",
-      "level": 50,
-      "nickname": "",
-      "shiny": false
-    }
-  ]
+  "label": "UPDATED",
+}
+
+
+### Try to update a team that doesn't exist
+PUT {{base}}/teams/999 HTTP/1.1
+Content-Type: application/json
+
+{
+  "label": "I DON'T EXIST",
 }
 
 
@@ -67,3 +70,47 @@ Content-Type: application/json
 DELETE {{base}}/teams/15 HTTP/1.1
 Content-Type: application/json
 
+
+### Get member of a team
+GET {{base}}/teams/26/members/4 HTTP/1.1
+Content-Type: application/json
+
+
+### Get member that doesn't exist (404
+GET {{base}}/teams/26/members/999 HTTP/1.1
+Content-Type: application/json
+
+
+## Create new member on team
+POST {{base}}/teams/26/members/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "dex_id": 766,
+  "sprite_id": 1037,
+  "slot": 1,
+  "gender": "",
+  "level": 100,
+  "nickname": "POST REQ",
+  "shiny": false
+}
+
+
+### Update member
+PUT {{base}}/teams/26/members/4 HTTP/1.1
+Content-Type: application/json
+
+{
+  "dex_id": 765,
+  "sprite_id": 1037,
+  "slot": 2,
+  "gender": "F",
+  "level": 55,
+  "nickname": "UPDATED",
+  "shiny": true
+}
+
+
+### Delete member
+DELETE {{base}}/teams/26/members/8 HTTP/1.1
+Content-Type: application/json
