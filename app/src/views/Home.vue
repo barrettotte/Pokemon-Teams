@@ -1,18 +1,31 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <b-container>
+    <b-row align-v="center">
+      <app-member></app-member>
+      <app-member></app-member>
+      <app-member></app-member>
+      <app-member></app-member>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+  import MemberCard from '@/components/MemberCard.vue'
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+  export default {
+    name: 'Home',
+    components: {
+      'app-member': MemberCard
+    },
+    mounted(){
+      this.fetchData();
+    },
+    methods: {
+      async fetchData(){
+        const res = await fetch('test.json');
+        const val = await res.json();
+        console.log(val);
+      }
+    }
   }
-}
 </script>

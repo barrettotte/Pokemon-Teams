@@ -22,14 +22,8 @@ For sake of simplicity, this runs locally for a single user.
 * [PokeSprite Project](https://github.com/msikma/pokesprite)
 
 
-## Commands
-* Install - ```sudo npm install -g @vue/cli```
-* Create Project - ```vue create <project_name>```
-* Run - ```npm run serve```
-
-
 ## References
 * VueJS Guide - https://vuejs.org/v2/guide
 * VueJS API - https://vuejs.org/v2/api/
 * VueJS Config - https://cli.vuejs.org/config/
-* PokeAPI Reference - https://pokeapi.co/docs/v2
+* Bootstrap-Vue Components - https://bootstrap-vue.org/docs/components
