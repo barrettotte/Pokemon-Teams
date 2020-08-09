@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="dark" class="p-2">
-      <b-navbar-brand href="#" class="mr-5">Pokemon Teams</b-navbar-brand>
+      <b-navbar-brand href="/" class="mr-5">Pokemon Teams</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>

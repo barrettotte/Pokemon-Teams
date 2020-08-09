@@ -1,11 +1,9 @@
 <template>
   <div id="app">
-    <div class="page" v-if="showSpinner">
+    <div class="loading-overlay" v-if="showSpinner">
       <b-spinner class="spinner" variant="primary" key="primary"></b-spinner>
     </div>
-    <div id="nav">
-      <app-navbar></app-navbar>
-    </div>
+    <app-navbar></app-navbar>
     <router-view/>
   </div>
 </template>
@@ -34,7 +32,7 @@
     color: #2c3e50;
   }
 
-  .page{
+  .loading-overlay{
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
     z-index: 25;

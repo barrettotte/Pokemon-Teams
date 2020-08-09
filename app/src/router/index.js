@@ -47,7 +47,7 @@ const router = new VueRouter({
 
 // nav guard => change document title to match route
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title || 'Pokemon Teams';
+  document.title = `Pokemon Teams | ${to.meta.title || ''}`;
   next();
 });
 

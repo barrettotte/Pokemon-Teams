@@ -52,8 +52,13 @@ def api_index():
 @app.route('/api/v1/pokedex', methods=['GET'])
 def get_pokedex():
   try:
-    entries = db.query('select dexno,name from pokemon.pokedex')
-    return query_resp([{'dexno': x[0], 'name': x[1]} for x in entries])
+    entries = db.query(' '.join((
+      'select a.dexno, a.name, b.slug',
+      'from pokemon.pokedex a',
+      'join pokemon.sprite b on a.dex_id=b.dex_id',
+      "  and b.form='$'"
+    )));
+    return query_resp([{'dexno': x[0], 'name': x[1], 'slug': x[2]} for x in entries])
   except Exception as e:
     return error_resp(e)
 

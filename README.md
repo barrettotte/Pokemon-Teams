@@ -7,7 +7,7 @@ An introductory VueJS app to record Pokemon teams used across various games and/
 * Introductory Vue Project
 * Routing with vue-router
 * CRUD functionality
-* External API usage with vue-resource
+* Call an API with Axios
 * State management with vuex
 * Simple Python backend (Flask) with local Postgres DB on Pi
 

@@ -24,7 +24,7 @@
           <li>Introduction to VueJS</li>
           <li>Routing with vue-router</li>
           <li>CRUD functionality on a model</li>
-          <li>External API usage with vue-resource</li>
+          <li>Call an API with Axios</li>
           <li>State management with vuex</li>
           <li>Simple Python backend (Flask) and local Postgres DB (on Pi)</li>
         </ul>
