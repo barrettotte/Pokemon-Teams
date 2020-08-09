@@ -2,11 +2,14 @@
 
 from database import Database
 from flask import Flask, request, jsonify
+from flask_cors import CORS, cross_origin
+
 
 app = Flask(__name__)
 app.url_map.strict_slashes = False
 app.config.from_object('config.Config')
 db = Database(app.config['DATABASE_URI'])
+cors = CORS(app)
 
 
 def query_resp(data):
