@@ -20,6 +20,7 @@
 
 <script>
   export default {
+    name: 'GithubCorner',
     props: ['width', 'height', 'repoUrl'],
   }
 </script>

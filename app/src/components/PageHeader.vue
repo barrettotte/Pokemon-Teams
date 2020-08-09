@@ -18,6 +18,7 @@
 
 <script>
   export default {
+    name: 'PageHeader',
     props: ['title', 'desc'],
   }
 </script>

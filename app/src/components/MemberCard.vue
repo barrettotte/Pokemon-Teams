@@ -17,6 +17,7 @@
 
 <script>
   export default {
+    name: 'MemberCard',
     props: ['name', 'id'],
     computed: {
       modalId(){

@@ -8,6 +8,7 @@
   import PageHeader from '@/components/PageHeader.vue';
   
   export default {
+    name: 'Pokedex',
     components: {
       'app-page-header': PageHeader
     }

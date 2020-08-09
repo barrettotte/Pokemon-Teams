@@ -55,6 +55,7 @@
   import PageHeader from '@/components/PageHeader.vue';
 
   export default {
+    name: 'About',
     components: {
       'app-page-header': PageHeader
     }

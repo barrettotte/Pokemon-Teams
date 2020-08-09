@@ -45,4 +45,10 @@ const router = new VueRouter({
   routes
 });
 
+// nav guard => change document title to match route
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title || 'Pokemon Teams';
+  next();
+});
+
 export default router;
