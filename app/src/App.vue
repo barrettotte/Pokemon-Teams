@@ -1,22 +1,27 @@
 <template>
   <div id="app">
+    <div class="page" v-if="showSpinner">
+      <b-spinner class="spinner" variant="primary" key="primary"></b-spinner>
+    </div>
     <div id="nav">
       <app-navbar></app-navbar>
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
   </div>
 </template>
 
 <script>
-  import Navbar from '@/components/Navbar.vue'
+  import {mapGetters} from 'vuex';
+  import Navbar from '@/components/Navbar.vue';
   
   export default {
-    name: 'Navbar',
+    name: 'App',
     components: {
       'app-navbar': Navbar
-    }
+    },
+    computed: {
+      ...mapGetters(['showSpinner'])
+    },
   }
 </script>
 
@@ -29,16 +34,16 @@
     color: #2c3e50;
   }
 
-  #nav {
-    padding: 30px;
+  .page{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 25;
+    width: 100%;
+    height: 100%;
+  }
 
-    a {
-      font-weight: bold;
-      color: #2c3e50;
-
-      &.router-link-exact-active {
-        color: #42b983;
-      }
-    }
+  .spinner{
+    position: relative;
+    top: 50%;
   }
 </style>

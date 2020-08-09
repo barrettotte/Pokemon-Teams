@@ -14,12 +14,13 @@ An introductory VueJS app to record Pokemon teams used across various games and/
 This was made to mess around with VueJS and is obviously not a production level application.
 For sake of simplicity, this runs locally for a single user. 
 
-**I really just wanted to focus on messing around with the frontend for this project.**
+**I really just wanted to focus on learning Vue with this project.**
 
 
 ## Credit
 * The sprite images are © Nintendo/Creatures Inc./GAME FREAK Inc.
 * [PokeSprite Project](https://github.com/msikma/pokesprite)
+* [GitHub Corners](https://github.com/tholman/github-corners)
 
 
 ## References
