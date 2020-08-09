@@ -1,11 +1,9 @@
 <template>
   <div>
     <b-col>
-      <b-card :title="name" :img-alt="slug" :img-src="getSprite(slug)"
-        img-top style="min-width:12rem" class="mb-2">
+      <b-card :title="name" :img-alt="slug" :img-src="getSprite(slug)" img-top style="min-width:12rem" class="mb-2">
         <b-card-text>{{dexno}}</b-card-text>
-        <b-button variant="primary" :href="getPokemonDb(slug)" 
-          target="_blank" v-b-tooltip.hover title="View PokemonDB Entry">
+        <b-button variant="primary" :href="getPokemonDb(slug)" target="_blank" v-b-tooltip.hover title="View PokemonDB Entry">
           More Info
         </b-button>
       </b-card>

@@ -48,13 +48,15 @@ export default new Vuex.Store({
   },
   actions: {
     async fetchPokedexEntries({commit}){
-      // TODO: strip url into config/env var
-      axios.get('http://127.0.0.1:5000/api/v1/pokedex/')
-        .then(res => {
-          console.log(res);
-          commit('SET_POKEDEX_ENTRIES', res['data']['data'])
-        })
-        .catch(err => console.error(err));
+      try{
+        commit('SET_SPINNER', true);
+        const res = await axios.get('http://127.0.0.1:5000/api/v1/pokedex/'); // TODO: strip url into config/env var
+        commit('SET_SPINNER', false);
+        commit('SET_POKEDEX_ENTRIES', res['data']['data']);
+        return res;
+      } catch(err){
+        console.error(err);
+      }
     },
 
     // TODO: switch to HTTP to Flask server
