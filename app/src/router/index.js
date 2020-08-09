@@ -7,23 +7,35 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'home',
+    component: Home,
+    meta: {
+      title: 'Home'
+    }
   },
   {
     path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
+    name: 'about',
+    component: () => import('../views/About.vue'),
+    meta: {
+      title: 'About'
+    }
   },
   {
     path: '/teams',
-    name: 'Teams',
-    component: () => import('../views/Teams.vue')
+    name: 'teams',
+    component: () => import('../views/Teams.vue'),
+    meta: {
+      title: 'Teams'
+    }
   },
   {
     path: '/pokedex',
-    name: 'Pokedex',
-    component: () => import('../views/Pokedex.vue')
+    name: 'pokedex',
+    component: () => import('../views/Pokedex.vue'),
+    meta: {
+      title: 'Pokedex'
+    }
   }
 ];
 
@@ -33,4 +45,4 @@ const router = new VueRouter({
   routes
 });
 
-export default router
+export default router;

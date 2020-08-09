@@ -15,13 +15,21 @@
   import Navbar from '@/components/Navbar.vue';
   
   export default {
-    name: 'App',
+    name: 'Pokemon Teams',
     components: {
       'app-navbar': Navbar
     },
     computed: {
       ...mapGetters(['showSpinner'])
     },
+    watch: {
+      '$route': {
+        handler: (to) => {
+          document.title = to.meta.title || 'Pokemon Teams'
+        },
+        immediate: true
+      }
+    }
   }
 </script>
 
