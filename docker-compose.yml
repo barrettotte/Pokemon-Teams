@@ -1,0 +1,40 @@
+version: "3.5"
+
+services:
+  api:
+    container_name: pokemon-teams-api
+    build:
+      context: ./
+      dockerfile: api/Dockerfile.dev
+    image: barrettotte/pokemon-teams-api
+    env_file:
+      - ./dev.env
+    environment: 
+      - ENV=${ENV}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PWD=${DB_PWD}
+      - DB_PORT=${DB_PORT}
+      - DB_SERVER=${DB_SERVER}
+      - API_PORT=${API_PORT}
+    ports:
+      - "8020:8020"
+    networks:
+      - pokemon-teams
+  # app:
+  #   container_name: pokemon-teams-app
+  #   build:
+  #     context: ./
+  #     dockerfile: app/Dockerfile.dev
+  #   image: barrettotte/pokemon-teams-app
+  #   env_file:
+  #     - ./dev.env
+  #   environment: 
+  #     - ENV=${ENV}
+  #   ports:
+  #     - "8021:80"
+  #   networks:
+  #     - pokemon-teams
+networks:
+  pokemon-teams:
+    name: pokemon-teams-network

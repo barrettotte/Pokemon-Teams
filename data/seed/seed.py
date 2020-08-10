@@ -1,4 +1,4 @@
-# seed database with pokedex entries and sprite references
+# one-off script to seed database with pokedex entries and sprite references
 
 import json, pyodbc
 
@@ -69,7 +69,7 @@ def main():
   with open('./seed.json', 'w+') as f:
     f.write(json.dumps(entries, indent=2))
 
-  conn = pyodbc.connect(get_conn_str('../../config.json'))
+  conn = pyodbc.connect(get_conn_str('dbconfig.json'))
   cursor = conn.execute('select count(*) from pokemon.pokedex')
   do_seed = cursor.fetchone()[0] == 0
   cursor.close()

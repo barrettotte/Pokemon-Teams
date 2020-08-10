@@ -23,6 +23,11 @@ For sake of simplicity, this runs locally for a single user.
 * [GitHub Corners](https://github.com/tholman/github-corners)
 
 
+## Setup
+I wouldn't suggest setting this up. 
+But, I did take notes in the various READMEs in **app/**, **api/**, and **data/**.
+
+
 ## References
 * VueJS Guide - https://vuejs.org/v2/guide
 * VueJS API - https://vuejs.org/v2/api/

@@ -1,5 +1,0 @@
-Flask
-Flask-Cors
-pyodbc
-psycopg2
-psycopg2-binary

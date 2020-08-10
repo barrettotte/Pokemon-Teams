@@ -7,3 +7,9 @@ The data is also super lightweight, so I don't do any kind of fun filters in the
 
 I do actually need to formally learn Flask + SQLAlchemy at some point.
 This guy's series of articles look really good - https://hackersandslackers.com/your-first-flask-application
+
+
+## Setup
+* Make sure Postgres database is setup locally (see **/data/README.md**).
+* Create **/api/config.json** based on **/api/config.example.json**
+* Flask API is running on **port 8020**

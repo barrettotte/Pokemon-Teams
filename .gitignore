@@ -1,4 +1,2 @@
 *.log
-
-# Dev postgres conn
-config.json 
+*.env

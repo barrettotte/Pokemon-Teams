@@ -1,0 +1,7 @@
+{
+  "db": "database_name",
+  "user": "pi",
+  "pwd": "password",
+  "port": "5432",
+  "server": "server_name"
+}

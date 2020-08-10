@@ -1,18 +1,14 @@
-import json
-from pathlib import Path
+import os
 
-def get_conn_str(file_name):
-  with open(Path.joinpath(Path(__file__).resolve().parents[2], file_name), 'r') as f:
-    cfg = json.load(f)
+def get_conn_str():
   return ''.join([
     'DRIVER={PostgreSQL Unicode};',
-    'DATABASE={};'.format(cfg['db']),
-    'UID={};'.format(cfg['user']),
-    'PWD={};'.format(cfg['pwd']),
-    'SERVER={};'.format(cfg['server']),
-    'PORT={}'.format(cfg['port'])
+    'DATABASE={};'.format(os.getenv('DB_NAME')),
+    'UID={};'.format(os.getenv('DB_USER')),
+    'PWD={};'.format(os.getenv('DB_PWD')),
+    'SERVER={};'.format(os.getenv('DB_SERVER')),
+    'PORT={}'.format(os.getenv('DB_PORT'))
   ])
 
 class Config(object):
-  DATABASE_URI = get_conn_str('config.json')
-  SPRITE_BASE = 'https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8'
+  DATABASE_URI = get_conn_str()
