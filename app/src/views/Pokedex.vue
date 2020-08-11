@@ -4,7 +4,7 @@
       :desc="'Browse the Pokedex for future team inspiration'">
     </app-page-header>
     <b-container>
-      <b-row>
+      <b-row class="justify-content-center">
         <app-pokedex-card v-for="entry in pokedexEntries" :key="entry.id" 
           :name="entry.name" :dexno="entry.dexno" :slug="entry.slug">
         </app-pokedex-card>
@@ -28,10 +28,10 @@
       ...mapGetters(['pokedexEntries'])
     },
     mounted(){
-      this.fetchData();
+      this.fillPokedex();
     },
     methods: {
-      async fetchData(){
+      async fillPokedex(){
         await this.$store.dispatch('fetchPokedexEntries');
       }
     }

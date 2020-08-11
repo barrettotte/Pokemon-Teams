@@ -44,10 +44,10 @@
       }
     },
     mounted(){
-      this.fetchData();
+      this.fillTeams();
     },
     methods: {
-      async fetchData(){
+      async fillTeams(){
         await this.$store.dispatch('fetchMembers');
       },
       paginate(currentPage){
