@@ -47,38 +47,42 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    async fetchPokedexEntries({commit}){
-      try{
-        commit('SET_SPINNER', true);
-        const res = await axios.get('http://127.0.0.1:8020/api/v1/pokedex/'); // TODO: strip url into config/env var
-        commit('SET_SPINNER', false);
-        commit('SET_POKEDEX_ENTRIES', res['data']['data']);
-        return res;
-      } catch(err){
-        console.error(err);
-      }
+    async simulateLoad(){
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 500)
+      });
+    },
+    async fetchPokedex(){
+      const res = await axios.get('http://127.0.0.1:8020/api/v1/pokedex/'); // TODO: strip url into config/env var
+      return res['data']['data'];
     },
 
     // TODO: switch to HTTP to Flask server
-    async fetchData({commit}){
-      commit('SET_SPINNER', true);
-      return new Promise(resolve => {
-        setTimeout(async () => {
-          const res = await fetch('test.json');
-          const val = await res.json();
-          resolve(val);
-          commit('SET_SPINNER', false);
-        }, 500);
-        // simulate delay of remote data fetch (spinner)
-      });
+    async fetchData(){
+      const res = await fetch('test.json');
+      const val = await res.json();
+      return val;
     },
 
     async fetchMembers({dispatch, commit}){
-      const data = await dispatch('fetchData');
-      commit('SET_MEMBERS', data);
-      commit('SET_ROWS', data.length);
-      commit('SET_DISPLAY_MEMBERS', data.slice(0, 3));
-      commit('SET_ROWS', data.length);
+      commit('SET_SPINNER', true);
+      const res = await dispatch('fetchData');
+      await dispatch('simulateLoad');
+      commit('SET_MEMBERS', res);
+      commit('SET_ROWS', res.length);
+      commit('SET_DISPLAY_MEMBERS', res.slice(0, 3));
+      commit('SET_ROWS', res.length);
+      commit('SET_SPINNER', false);
+    },
+
+    async fetchPokedexEntries({dispatch, commit}){
+      commit('SET_SPINNER', true);
+      const res = await dispatch('fetchPokedex');
+      await dispatch('simulateLoad');
+      commit('SET_POKEDEX_ENTRIES', res);
+      commit('SET_SPINNER', false);
     },
 
     async paginate({commit, state}, {currentPage, perPage}){
