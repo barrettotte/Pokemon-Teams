@@ -18,7 +18,7 @@ services:
       - DB_SERVER=${DB_SERVER}
       - API_PORT=${API_PORT}
     ports:
-      - "8020:8020"
+      - "8020:5000"
     networks:
       - pokemon-teams
   # app:

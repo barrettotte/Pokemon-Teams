@@ -11,7 +11,3 @@ ENTRYPOINT ["python3", "app.py"]
 
 # sudo docker build -t barrettotte/pokemon-teams-api .
 # sudo docker run -it --env-file dev.env -p 8020:5000 --rm --name pokemon-teams-api barrettotte/pokemon-teams-api
-
-
-# && \
-#   printf '[PostgreSQL Unicode]\nDriver=/usr/lib/psqlodbca.so\nSetup=/usr/lib/libodbcpsqlS.so' >> /etc/odbcinst.ini

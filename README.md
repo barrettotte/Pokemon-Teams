@@ -24,8 +24,17 @@ For sake of simplicity, this runs locally for a single user.
 
 
 ## Setup
-I wouldn't suggest setting this up. 
-But, I did take notes in the various READMEs in **app/**, **api/**, and **data/**.
+I wouldn't suggest setting this up.
+But, I did take some notes in [docs/](docs/), [app/](app/), [api/](api/), and [data/](data/)**.
+
+* Setup environment file at **/dev.env** based on **/dev.env.example**
+
+
+| Port | Description | Docker ? |
+| ---- | ----------- | -------- |
+| 5432 | Postgres    | No       |
+| 8020 | Flask API   | Yes      |
+| 8021 | Vue App     | Yes      |
 
 
 ## References

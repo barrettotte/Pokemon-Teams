@@ -10,6 +10,5 @@ This guy's series of articles look really good - https://hackersandslackers.com/
 
 
 ## Setup
-* Make sure Postgres database is setup locally (see **/data/README.md**).
-* Create **/api/config.json** based on **/api/config.example.json**
-* Flask API is running on **port 8020**
+* Make sure Postgres database is setup locally see [../data/README.md](../data/README.md)
+* Setup environment file at **/dev.env** based on **/dev.env.example**
