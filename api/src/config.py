@@ -12,3 +12,4 @@ def get_conn_str():
 
 class Config(object):
   DATABASE_URI = get_conn_str()
+  API_PORT = os.getenv('API_PORT')

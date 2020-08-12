@@ -6,8 +6,7 @@
 dotenv="$(pwd)/dev.env"
 image='barrettotte/pokemon-teams-api'
 cont_name='pokemon-teams-api'
-app_port=5000
-exposed_port=8020
+port=8020
 api_src="$(pwd)/api"
 
 local_run(){
@@ -17,7 +16,7 @@ local_run(){
 
 docker_run(){
   sudo docker build -t $image $api_src && \
-  sudo docker run -d --env-file $dotenv -p $exposed_port:$app_port --rm --name $cont_name $image
+  sudo docker run -d --env-file $dotenv -p $port:$port --rm --name $cont_name $image
   # (add -it for interactive)
 }
 

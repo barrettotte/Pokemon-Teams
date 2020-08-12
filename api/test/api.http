@@ -1,8 +1,6 @@
 # Testing CRUD functionality for Pokemon-Teams API
 
-#@port=8020
-@port=5000
-@base=http://127.0.0.1:{{port}}/api/v1
+@base=http://127.0.0.1:8020/api/v1
 
 
 ### All Pokedex entries
@@ -118,8 +116,6 @@ DELETE {{base}}/teams/26/members/8 HTTP/1.1
 Content-Type: application/json
 
 
-
 ### get a random team
 GET {{base}}/teams/random HTTP/1.1
 Content-Type: application/json
-

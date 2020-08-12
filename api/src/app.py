@@ -12,10 +12,10 @@ db = Database(app.config['DATABASE_URI'])
 cors = CORS(app)
 
 
-def query_resp(data):
+def query_resp(data, status=200):
   if isinstance(data, list) and len(data) == 0:
     return {'data': [], 'error': 'no records found'}, 404
-  return {'data': data, 'error': None}, 200
+  return {'data': data, 'error': None}, status
 
 
 def error_resp(err):
@@ -90,12 +90,12 @@ def get_teams():
 def get_random_team():
   try:
     team = db.query(' '.join([
-      'select team_id',
-      'from pokemon.team',
-      'offset floor(random() * (select count(*) from pokemon.team))'
+      'select a.team_id, a.label',
+      'from pokemon.team a',
+      'offset floor(random() * (select count(*) from pokemon.team))',
       'limit 1'
     ]))[0]
-    return query_resp({'id': team[0]})
+    return query_resp({'team_id': team[0], 'label': team[1]})
   except Exception as e:
     return error_resp(e)
 
@@ -114,7 +114,7 @@ def get_team(team_id):
         'member_id': mbr[0], 'dex_id': mbr[1], 'sprite_id': mbr[2], 
         'gender': mbr[3], 'level': mbr[4], 'nickname': mbr[5], 'shiny': mbr[6] == "1"
       })
-    return {'data': team, 'error': None}, 200
+    return query_resp(team)
   except Exception as e:
     return error_resp(e)
 
@@ -129,7 +129,7 @@ def create_team():
       'returning team_id'
     )), [data['label']] )[0]
     data['team_id'] = team_id
-    return data, 201
+    return query_resp(data, 201)
   except Exception as e:
     return error_resp(e)
 
@@ -146,7 +146,7 @@ def update_team(team_id):
       'where team_id=?',
     )), [data['label'], team_id])
 
-    return data, 200
+    return query_resp(data)
   except Exception as e:
     return error_resp(e)
 
@@ -156,7 +156,7 @@ def delete_team(team_id):
   try:
     db.bound_stmt('delete from pokemon.member where team_id = ?', [team_id])
     db.bound_stmt('delete from pokemon.team where team_id = ?', [team_id])
-    return '', 200
+    return query_resp(None)
   except Exception as e:
     return error_resp(e)
 
@@ -176,7 +176,7 @@ def get_member(team_id, member_id):
       'member_id': mbr[0], 'dex_id': mbr[1], 'sprite_id': mbr[2], 
       'gender': mbr[3], 'level': mbr[4], 'nickname': mbr[5], 'shiny': mbr[6] == "1"
     }
-    return data, 200
+    return query_resp(data)
   except Exception as e:
     return error_resp(e)
 
@@ -197,7 +197,7 @@ def create_member(team_id):
       data['level'], data['nickname'], data['slot'], '1' if data['shiny'] else '0'
     ])[0]
     data['member_id'] = mbr_id
-    return data, 201
+    return query_resp(data, 201)
   except Exception as e:
     return error_resp(e)
 
@@ -219,7 +219,7 @@ def update_member(team_id, member_id):
       data['level'], data['nickname'], '1' if data['shiny'] else '0', 
       team_id, member_id
     ])
-    return data, 200
+    return query_resp(data)
   except Exception as e:
     return error_resp(e)
 
@@ -228,9 +228,9 @@ def update_member(team_id, member_id):
 def delete_member(team_id, member_id):
   try:
     db.bound_stmt('delete from pokemon.member where member_id = ?', [member_id])
-    return '', 200
+    return query_resp(None)
   except Exception as e:
     return error_resp(e)
 
 
-if __name__ == '__main__': app.run(debug=True, host='0.0.0.0', port=5000)
+if __name__ == '__main__': app.run(debug=True, host='0.0.0.0', port=app.config['API_PORT'])
