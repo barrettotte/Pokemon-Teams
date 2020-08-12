@@ -86,6 +86,20 @@ def get_teams():
     return error_resp(e)
 
 
+@app.route('/api/v1/teams/random', methods=['GET'])
+def get_random_team():
+  try:
+    team = db.query(' '.join([
+      'select team_id',
+      'from pokemon.team',
+      'offset floor(random() * (select count(*) from pokemon.team))'
+      'limit 1'
+    ]))[0]
+    return query_resp({'id': team[0]})
+  except Exception as e:
+    return error_resp(e)
+
+
 @app.route('/api/v1/teams/<team_id>', methods=['GET'])
 def get_team(team_id):
   try:
