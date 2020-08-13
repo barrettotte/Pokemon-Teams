@@ -3,14 +3,11 @@
     <app-page-header :title="'Teams'"
       :desc="'Browse and edit your teams/team members'">
     </app-page-header>
-    <div v-if="displayMembers.length > 0">
-        <b-container>
-          <b-row align-v="center">
-            <app-member v-for="member in displayMembers" :key="member.id" 
-              :name="member.name" :id="member.id">
-            </app-member>
-          </b-row>
-        </b-container>
+    <div v-if="pageTeams.length > 0">
+      
+        <app-team v-for="team in pageTeams" :key="team.team_id" :label="team.label" :id="team.team_id">
+        </app-team>
+      
       <hr class="my-3">
       <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage"
         first-text="First" prev-text="Prev" next-text="Next" last-text="Last"
@@ -24,18 +21,18 @@
 </template>
 
 <script>
-  import MemberCard from '@/components/MemberCard.vue';
+  import TeamCardGroup from '@/components/TeamCardGroup.vue';
   import PageHeader from '@/components/PageHeader.vue';
   import {mapGetters} from 'vuex';
 
   export default {
     name: 'Teams',
     components: {
-      'app-member': MemberCard,
+      'app-team': TeamCardGroup,
       'app-page-header': PageHeader
     },
     computed: {
-      ...mapGetters(['members', 'displayMembers', 'rows'])
+      ...mapGetters(['teams', 'pageTeams', 'rows'])
     },
     data(){
       return {
@@ -48,7 +45,7 @@
     },
     methods: {
       async fillTeams(){
-        await this.$store.dispatch('fetchMembers');
+        await this.$store.dispatch('fetchTeams');
       },
       paginate(currentPage){
         this.$store.dispatch('paginate', {currentPage, perPage: this.perPage});

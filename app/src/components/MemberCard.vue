@@ -1,9 +1,8 @@
 <template>
   <div>
     <b-col>
-      <b-card 
-        :title="name" img-alt="member" img-top tag="article" style="min-width:10rem" class="mb-2"
-        img-src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/charizard.png" 
+      <b-card :title="name" img-alt="member" img-top tag="article" style="min-width:10rem" class="mb-2"
+        img-src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/charizard.png"
       >
         <b-card-text>This is text</b-card-text>
         <b-button variant="primary" v-b-modal="modalId" v-b-tooltip.hover title="Launch modal">Info</b-button>

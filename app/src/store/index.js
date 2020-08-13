@@ -7,8 +7,8 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     pokedexEntries: [],
-    members: [],
-    displayMembers: [],
+    teams: [],
+    pageTeams: [],
     rows: 0,
     showSpinner: false
   },
@@ -16,14 +16,14 @@ export default new Vuex.Store({
     pokedexEntries(state){
       return state.pokedexEntries;
     },
-    members(state){
-      return state.members;
+    teams(state){
+      return state.teams;
     },
     rows(state){
       return state.rows;
     },
-    displayMembers(state){
-      return state.displayMembers;
+    pageTeams(state){
+      return state.pageTeams;
     },
     showSpinner(state){
       return state.showSpinner;
@@ -33,14 +33,14 @@ export default new Vuex.Store({
     SET_POKEDEX_ENTRIES(state, pokedexEntries){
       state.pokedexEntries = pokedexEntries;
     },
-    SET_MEMBERS(state, members){
-      state.members = members;
+    SET_TEAMS(state, teams){
+      state.members = teams;
     },
     SET_ROWS(state, rows){
       state.rows = rows;
     },
-    SET_DISPLAY_MEMBERS(state, displayMembers){
-      state.displayMembers = displayMembers;
+    SET_PAGE_TEAMS(state, pageTeams){
+      state.pageTeams = pageTeams;
     },
     SET_SPINNER(state, spinner){
       state.showSpinner = spinner;
@@ -54,32 +54,35 @@ export default new Vuex.Store({
         }, 500)
       });
     },
-    async fetchPokedex(){
+
+    async requestPokedex(){
       const res = await axios.get('http://127.0.0.1:8020/api/v1/pokedex/'); // TODO: strip url into config/env var
       return res['data']['data'];
     },
 
-    // TODO: switch to HTTP to Flask server
-    async fetchData(){
+    async requestTeams(){
       const res = await fetch('test.json');
       const val = await res.json();
       return val;
+      // TODO:
+      // const res = await axios.get('http://127.0.0.1:8020/api/v1/teams/');
+      // return res['data']['data'];
     },
 
-    async fetchMembers({dispatch, commit}){
+    async fetchTeams({dispatch, commit}){
       commit('SET_SPINNER', true);
-      const res = await dispatch('fetchData');
+      const res = await dispatch('requestTeams');
       await dispatch('simulateLoad');
-      commit('SET_MEMBERS', res);
+      commit('SET_TEAMS', res);
       commit('SET_ROWS', res.length);
-      commit('SET_DISPLAY_MEMBERS', res.slice(0, 3));
+      commit('SET_PAGE_TEAMS', res.slice(0, 3));
       commit('SET_ROWS', res.length);
       commit('SET_SPINNER', false);
     },
 
     async fetchPokedexEntries({dispatch, commit}){
       commit('SET_SPINNER', true);
-      const res = await dispatch('fetchPokedex');
+      const res = await dispatch('requestPokedex');
       await dispatch('simulateLoad');
       commit('SET_POKEDEX_ENTRIES', res);
       commit('SET_SPINNER', false);
@@ -87,17 +90,17 @@ export default new Vuex.Store({
 
     async paginate({commit, state}, {currentPage, perPage}){
       const start = (currentPage - 1) * perPage;
-      commit('SET_DISPLAY_MEMBERS', state.members.slice(start, start + 3));
+      commit('SET_PAGE_TEAMS', state.teams.slice(start, start + 3));
     },
 
     updatePagination({commit, dispatch}, {data, currentPage, perPage}){
-      commit('SET_MEMBERS', data);
+      commit('SET_TEAMS', data);
       commit('SET_ROWS', data.length);
       dispatch('paginate', {currentPage, perPage});
     },
 
     async search({dispatch}, {text}){
-      const data = await this.dispatch('fetchData');
+      const data = await this.dispatch('requestTeams');
       const results = data.filter(val => val.name.toLowerCase().includes(text.toLowerCase()));
       dispatch('updatePagination', {data: results, currentPage: 1, perPage: 3});
     }

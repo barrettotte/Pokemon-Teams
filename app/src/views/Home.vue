@@ -3,8 +3,9 @@
     <b-jumbotron>
       <template v-slot:header>Pokemon Teams</template>
       <template v-slot:lead>An app to track Pokemon teams used across various games/playthroughs.</template>
-      <hr class="my-4">
+      <hr class="my-5">
       <p>Make new teams, edit your team members, or simply browse the Pokedex for team inspiration.</p>
+      <br>
       <b-button class="mx-4 mt-3" variant="primary" href="#">Manage Teams</b-button>
       <b-button class="mx-4 mt-3" variant="success" href="#">Browse Pokedex</b-button>
     </b-jumbotron>

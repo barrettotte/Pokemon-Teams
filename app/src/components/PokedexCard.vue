@@ -1,19 +1,17 @@
 <template>
-  <div class="dex-card">
-    <b-col>
-      <b-card bg-variant="dark" text-variant="white" class="mb-4 dex-body"> 
-        <div class="dex-name">
-          <a :href="getPokemonDb(slug)" target="_blank">{{name}}</a>
-        </div>
-        <a :href="getPokemonDb(slug)" target="_blank">
-          <b-card-img-lazy :src="getSprite(slug)" :alt="slug" bottom 
-            blank-color='#343a40' blank-width="68px" blank-height="56px">
-          </b-card-img-lazy>
-        </a>
-        <p class="dex-number">{{dexno}}</p>
-      </b-card>
-    </b-col>
-  </div>
+  <b-card bg-variant="dark" text-variant="white" class="my-2 mx-2 dex-card">
+    <div class="dex-body">
+      <div class="dex-name">
+        <a :href="getPokemonDb(slug)" target="_blank">{{name}}</a>
+      </div>
+      <a :href="getPokemonDb(slug)" target="_blank">
+        <b-card-img-lazy :src="getSprite(slug)" :alt="slug" bottom 
+          blank-color='#343a40' blank-width="68px" blank-height="56px">
+        </b-card-img-lazy>
+      </a>
+      <p class="dex-number">{{dexno}}</p>
+    </div>
+  </b-card>
 </template>
 
 <script>
@@ -33,12 +31,12 @@
 
 <style lang="scss" scoped>
   .dex-card{
-    height: 100%;
-  }
-  .dex-body{
     border: 4px solid black;
     width: 10rem;
     height: 10rem;
+  }
+  .dex-body{
+    height: 100%;
   }
   .dex-name a{
     font-size: 14px;

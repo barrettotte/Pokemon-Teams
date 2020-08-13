@@ -1,30 +1,200 @@
 [
   {
-    "name": "member 1",
-    "id": 1
+    "team_id": 1,
+    "label": "FIRST TEAM",
+    "members": [
+      {
+        "member_id": 11,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "1.1",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 12,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "1.2",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 13,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "1.3",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 14,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "1.4",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 15,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "1.5",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 16,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "1.6",
+        "slot": 1,
+        "shiny": false
+      }
+    ]
   },
   {
-    "name": "member 2",
-    "id": 2
+    "team_id": 44,
+    "label": "SECOND TEAM",
+    "members": [
+      {
+        "member_id": 21,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "2.1",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 22,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "2.2",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 23,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "2.3",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 24,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "2.4",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 25,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "2.5",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 26,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "2.6",
+        "slot": 1,
+        "shiny": false
+      }
+    ]
   },
   {
-    "name": "member 3",
-    "id": 3
-  },
-  {
-    "name": "member 4",
-    "id": 4
-  },
-  {
-    "name": "member 5",
-    "id": 5
-  },
-  {
-    "name": "member 6",
-    "id": 6
-  },
-  {
-    "name": "member 7",
-    "id": 7
+    "team_id": 101,
+    "label": "THIRD TEAM",
+    "members": [
+      {
+        "member_id": 31,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "3.1",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 32,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "3.2",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 33,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "3.3",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 34,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "3.4",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 35,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "3.5",
+        "slot": 1,
+        "shiny": false
+      },
+      {
+        "member_id": 36,
+        "dex_id": 764,
+        "sprite_id": 1036,
+        "gender": "M",
+        "level": 50,
+        "nickname": "3.6",
+        "slot": 1,
+        "shiny": false
+      }
+    ]
   }
 ]
