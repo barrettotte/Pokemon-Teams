@@ -1,7 +1,6 @@
 <template>
   <div>
-    <app-page-header :title="'Pokedex'"
-      :desc="'Browse the Pokedex for future team inspiration'">
+    <app-page-header :title="'Pokedex'" :desc="'Browse the Pokedex for future team inspiration'">
     </app-page-header>
     <b-container>
       <b-row class="justify-content-center">

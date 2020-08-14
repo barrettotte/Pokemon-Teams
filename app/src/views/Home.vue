@@ -6,8 +6,8 @@
       <hr class="my-5">
       <p>Make new teams, edit your team members, or simply browse the Pokedex for team inspiration.</p>
       <br>
-      <b-button class="mx-4 mt-3" variant="primary" href="#">Manage Teams</b-button>
-      <b-button class="mx-4 mt-3" variant="success" href="#">Browse Pokedex</b-button>
+      <b-button class="mx-4 mt-3" variant="primary" href="/teams">Manage Teams</b-button>
+      <b-button class="mx-4 mt-3" variant="success" href="/pokedex">Browse Pokedex</b-button>
     </b-jumbotron>
     <b-container>
       <b-row align-v="center">

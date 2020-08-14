@@ -108,11 +108,20 @@ def get_team(team_id):
       return team_not_found(team_id)
 
     team = {'team_id': teams[0][0], 'label': teams[0][1], 'members': []}
-    members = db.bound_query('select * from pokemon.member where team_id = ? limit 6', [team['team_id']])
+    members = db.bound_query(' '.join([
+      'select a.*, b.slug, c.name, c.dexno',
+      'from pokemon.member a',
+      'join pokemon.sprite b on a.sprite_id=b.sprite_id',
+      'join pokemon.pokdex c on a.dex_id=c.dex_id',
+      'where a.team_id = ?',
+      'limit 6'
+    ]), [team['team_id']])
+
     for mbr in members:
       team['members'].append({
-        'member_id': mbr[0], 'dex_id': mbr[1], 'sprite_id': mbr[2], 
-        'gender': mbr[3], 'level': mbr[4], 'nickname': mbr[5], 'shiny': mbr[6] == "1"
+        'member_id': mbr[0], 'dex_id': mbr[1], 'sprite_id': mbr[2], 'gender': mbr[3], 
+        'level': mbr[4], 'nickname': mbr[5], 'shiny': mbr[6] == "1", 
+        'slug': mbr[7], 'name': mbr[8], 'dexno': mbr[9]
       })
     return query_resp(team)
   except Exception as e:

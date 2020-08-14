@@ -1,62 +1,37 @@
 <template>
-  <b-container class="mb-4">
-    <b-card-group deck class="team-container">
-      <b-card bg-variant="dark" text-variant="white" class="member-body"> 
-        <div class="member-card">
-          <div class="dex-name">
-            <a href="" target="_blank">{{label}}</a>
-          </div>
-          <p class="member-number">{{id}}</p>
-        </div>
-      </b-card>
-      <b-card bg-variant="dark" text-variant="white" class="member-body"> 
-        <div class="member-card">
-          <div class="dex-name">
-            <a href="" target="_blank">{{label}}</a>
-          </div>
-          <p class="member-number">{{id}}</p>
-        </div>
-      </b-card>
-      <b-card bg-variant="dark" text-variant="white" class="member-body"> 
-        <div class="member-card">
-          <div class="dex-name">
-            <a href="" target="_blank">{{label}}</a>
-          </div>
-          <p class="member-number">{{id}}</p>
-        </div>
-      </b-card>
-      <b-card bg-variant="dark" text-variant="white" class="member-body"> 
-        <div class="member-card">
-          <div class="dex-name">
-            <a href="" target="_blank">{{label}}</a>
-          </div>
-          <p class="member-number">{{id}}</p>
-        </div>
-      </b-card>
-      <b-card bg-variant="dark" text-variant="white" class="member-body"> 
-        <div class="member-card">
-          <div class="dex-name">
-            <a href="" target="_blank">{{label}}</a>
-          </div>
-          <p class="member-number">{{id}}</p>
-        </div>
-      </b-card>
-      <b-card bg-variant="dark" text-variant="white" class="member-body"> 
-        <div class="member-card">
-          <div class="dex-name">
-            <a href="" target="_blank">{{label}}</a>
-          </div>
-          <p class="member-number">{{id}}</p>
-        </div>
-      </b-card>
-    </b-card-group>
+  <b-container class="mb-4" style="padding-bottom: 25px">
+    <b-row class="team-container justify-content-center">
+      <div class="team-label">{{label}}</div>
+      <b-card-group deck>
+        <!-- TODO: Edit and delete buttons (probably centered at bottom) -->
+        <app-member v-for="member in sortedMembers()" :key="member.member_id" :id="member.member_id"
+          :dex_id="member.dex_id" :sprite_id="member.sprite_id" :name="member.name" :dexno="member.dexno"
+          :slug="member.slug" :nickname="member.nickname" :gender="member.gender" :level="member.level" 
+          :slot="member.slot" :shiny="member.shiny">
+        </app-member>
+      </b-card-group>
+      <div class="mt-4">
+        <b-button variant="primary" class="team-btn mx-4">Edit</b-button>
+        <b-button variant="danger" class="team-btn mx-4">Delete</b-button>
+      </div>
+    </b-row>
   </b-container>
 </template>
 
 <script>
+  import MemberCard from '@/components/MemberCard.vue';
+
   export default {
     name: 'TeamCardGroup',
-    props: ['label', 'id']
+    props: ['label', 'id', 'members'],
+    components: {
+      'app-member': MemberCard,
+    },
+    methods: {
+      sortedMembers(){
+        return this.members.sort((a, b) => a.slot - b.slot);
+      }
+    }
   }
 </script>
 
@@ -64,22 +39,17 @@
   .team-container{
     height: 100%;
     border: 4px solid black;
+    background-color: rgb(167, 167, 167);
     padding: 25px;
-  }
-  .member-body{
-    border: 4px solid black;
-    width: 10rem;
-    height: 10rem;
-  }
-  .member-name a{
-    font-size: 14px;
-    color: white;
-    font-weight: bold;
-  }
-  .member-number{
-    text-align: right;
-    color: #b6b4b4;
-    font-size: 9px;
-    font-weight: bold;
+
+    .team-label{
+      font-weight: bold;
+      font-size: 22px;
+      padding-bottom: 10px;
+    }
+
+    .team-btn{
+      border: 4px solid black;
+    }
   }
 </style>

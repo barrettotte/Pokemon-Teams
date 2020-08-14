@@ -35,14 +35,17 @@
     width: 10rem;
     height: 10rem;
   }
+
   .dex-body{
     height: 100%;
   }
+
   .dex-name a{
     font-size: 14px;
     color: white;
     font-weight: bold;
   }
+  
   .dex-number{
     text-align: right;
     color: #b6b4b4;
