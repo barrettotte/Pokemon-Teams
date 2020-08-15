@@ -13,7 +13,7 @@
     name: 'MemberCard',
     props: [
       'id', 'dex_id', 'sprite_id', 'name', 'dexno', 'slug', 
-      'nickname', 'gender', 'level', 'slot', 'shiny'
+      'nickname', 'gender', 'level', 'slot_idx', 'shiny'
     ],
     methods: {
       getSprite(slug){

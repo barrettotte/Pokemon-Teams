@@ -49,7 +49,7 @@
   #nav {
     a {
       font-weight: bold;
-      color: #e6e6e6;
+      color: #ffffff;
 
       &.router-link-exact-active {
         color: #42b983;
@@ -58,7 +58,7 @@
   }
   
   #nav a.router-link-exact-active{
-    color: rgb(143, 143, 143);
+    color: rgb(216, 216, 216);
   }
 
   .nav-link{

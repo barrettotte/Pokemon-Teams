@@ -37,6 +37,15 @@ But, I did take some notes in [docs/](docs/), [app/](app/), [api/](api/), and [d
 | 8021 | Vue App     | Yes      |
 
 
+## Missing Features
+Features that I ended up stripping out because I got bored with the project.
+
+* Display random team on home page
+* Popup alerts for deleting, creating, etc.
+* Better styling...lol
+* There's most definitely some UI bugs I missed
+
+
 ## References
 * VueJS Guide - https://vuejs.org/v2/guide
 * VueJS API - https://vuejs.org/v2/api/

@@ -35,6 +35,10 @@
     width: 10rem;
     height: 10rem;
   }
+  .dex-card:hover{
+    transform: rotate(3deg);
+    border: 4px solid rgb(155, 153, 153);
+  }
 
   .dex-body{
     height: 100%;

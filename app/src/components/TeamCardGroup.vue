@@ -1,19 +1,22 @@
 <template>
-  <b-container class="mb-4" style="padding-bottom: 25px">
-    <b-row class="team-container justify-content-center">
-      <div class="team-label">{{label}}</div>
-      <b-card-group deck>
-        <!-- TODO: Edit and delete buttons (probably centered at bottom) -->
-        <app-member v-for="member in sortedMembers()" :key="member.member_id" :id="member.member_id"
-          :dex_id="member.dex_id" :sprite_id="member.sprite_id" :name="member.name" :dexno="member.dexno"
-          :slug="member.slug" :nickname="member.nickname" :gender="member.gender" :level="member.level" 
-          :slot="member.slot" :shiny="member.shiny">
+  <b-container class="mb-5 team-container">
+    <b-row class="justify-content-center">
+      <div class="team-label">
+        {{label}} | {{id}}
+      </div>
+    </b-row>
+    <b-row class="justify-content-center">
+      <b-card-group deck v-if="members && members.length > 0">
+        <app-member v-for="member in members" :key="member.member_id" 
+          :id="member.member_id" :dex_id="member.dex_id" :sprite_id="member.sprite_id" :gender="member.gender" 
+          :level="member.level" :slot_idx="member.slot" :nickname="member.nickname" :shiny="member.shiny"
+          :slug="member.slug" :name="member.name" :dexno="member.dexno">
         </app-member>
       </b-card-group>
-      <div class="mt-4">
-        <b-button variant="primary" class="team-btn mx-4">Edit</b-button>
-        <b-button variant="danger" class="team-btn mx-4">Delete</b-button>
-      </div>
+    </b-row>
+    <b-row class="mt-4 justify-content-center">
+      <b-button variant="primary" class="team-btn mx-4">Edit</b-button>
+      <b-button variant="danger" class="team-btn mx-4" @click="deleteTeam(id)">Delete</b-button>
     </b-row>
   </b-container>
 </template>
@@ -28,8 +31,8 @@
       'app-member': MemberCard,
     },
     methods: {
-      sortedMembers(){
-        return this.members.sort((a, b) => a.slot - b.slot);
+      async deleteTeam(id){
+        await this.$store.dispatch('deleteTeam', {id});
       }
     }
   }
@@ -37,10 +40,9 @@
 
 <style lang="scss" scoped>
   .team-container{
-    height: 100%;
     border: 4px solid black;
     background-color: rgb(167, 167, 167);
-    padding: 25px;
+    padding: 25px 25px 50px 25px;  //TRBL
 
     .team-label{
       font-weight: bold;
@@ -50,6 +52,11 @@
 
     .team-btn{
       border: 4px solid black;
+    }
+
+    .team-btn:hover{
+      border: 4px solid black;
+      transform: rotate(3deg);
     }
   }
 </style>

@@ -3,29 +3,33 @@
     <b-jumbotron>
       <template v-slot:header>Pokemon Teams</template>
       <template v-slot:lead>An app to track Pokemon teams used across various games/playthroughs.</template>
-      <hr class="my-5">
-      <p>Make new teams, edit your team members, or simply browse the Pokedex for team inspiration.</p>
-      <br>
-      <b-button class="mx-4 mt-3" variant="primary" href="/teams">Manage Teams</b-button>
-      <b-button class="mx-4 mt-3" variant="success" href="/pokedex">Browse Pokedex</b-button>
+      <hr class="my-3">
+      <p class="mb-3">Make new teams, edit your team members, or simply browse the Pokedex for team inspiration.</p>
+      <b-button class="mx-4 home-btn" variant="primary" href="/teams">Manage Teams</b-button>
+      <b-button class="mx-4 home-btn" variant="success" href="/pokedex">Browse Pokedex</b-button>
     </b-jumbotron>
-    <b-container>
-      <b-row align-v="center">
-        <p>TODO: random team display here</p>
-      </b-row>
-    </b-container>
+    <app-example-team></app-example-team>
   </div>
 </template>
 
 <script>
+  import ExampleTeam from '@/components/ExampleTeam.vue';
+
   export default {
     name: 'Home',
     components: {
-      //'app-member': MemberCard
+      'app-example-team': ExampleTeam
     }
   }
 </script>
 
 <style lang="scss">
+  .home-btn{
+    border: 4px solid black;
+  }
 
+  .home-btn:hover{
+    border: 4px solid black;
+    transform: rotate(3deg);
+  }
 </style>

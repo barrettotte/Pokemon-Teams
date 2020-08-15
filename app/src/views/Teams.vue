@@ -5,8 +5,7 @@
     </app-page-header>
     <b-container>
       <b-row class="mb-5 justify-content-center">
-        <b-button>Add New Team</b-button>
-        <!-- TODO: button functionality -->
+        <b-button class="add-btn" @click="addTeam()">Add New Team</b-button>
       </b-row>
       <b-row class="justify-content-center">
         <div v-if="pageTeams.length > 0">
@@ -54,13 +53,24 @@
       async fillTeams(){
         await this.$store.dispatch('fetchTeams');
       },
-      paginate(currentPage){
-        this.$store.dispatch('paginate', {currentPage, perPage: this.perPage});
+      async addTeam(){
+        await this.$store.dispatch('addTeam', {label: 'New Team'});
+        await this.paginate(this.currentPage);
+      },
+      async paginate(currentPage){
+        await this.$store.dispatch('paginate', {currentPage, perPage: this.perPage});
       }
     }
   }
 </script>
 
 <style lang="scss">
+  .add-btn{
+    border: 4px solid black;
+  }
 
+  .add-btn:hover{
+    border: 4px solid black;
+    transform: rotate(3deg);
+  }
 </style>

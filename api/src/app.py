@@ -14,7 +14,7 @@ cors = CORS(app)
 
 def query_resp(data, status=200):
   if isinstance(data, list) and len(data) == 0:
-    return {'data': [], 'error': 'no records found'}, 404
+    return {'data': None, 'error': 'no records found'}, 404
   return {'data': data, 'error': None}, status
 
 
@@ -81,7 +81,7 @@ def get_dex_sprites(dex_id):
 def get_teams():
   try:
     teams = db.query('select * from pokemon.team')
-    return query_resp([{'id': x[0], 'name': x[1]} for x in teams])
+    return query_resp([{'team_id': x[0], 'label': x[1]} for x in teams])
   except Exception as e:
     return error_resp(e)
 
@@ -109,7 +109,8 @@ def get_team(team_id):
 
     team = {'team_id': teams[0][0], 'label': teams[0][1], 'members': []}
     members = db.bound_query(' '.join([
-      'select a.*, b.slug, c.name, c.dexno',
+      'select a.member_id, a.dex_id, a.sprite_id, a.gender, a.level,',
+      '  a.slot, a.nickname, a.shiny, b.slug, c.name, c.dexno',
       'from pokemon.member a',
       'join pokemon.sprite b on a.sprite_id=b.sprite_id',
       'join pokemon.pokedex c on a.dex_id=c.dex_id',
@@ -120,8 +121,8 @@ def get_team(team_id):
     for mbr in members:
       team['members'].append({
         'member_id': mbr[0], 'dex_id': mbr[1], 'sprite_id': mbr[2], 'gender': mbr[3], 
-        'level': mbr[4], 'nickname': mbr[5], 'shiny': mbr[6] == "1", 
-        'slug': mbr[7], 'name': mbr[8], 'dexno': mbr[9]
+        'level': mbr[4], 'slot': mbr[5], 'nickname': mbr[6], 'shiny': mbr[7] == "1", 
+        'slug': mbr[8], 'name': mbr[9], 'dexno': mbr[10]
       })
     return query_resp(team)
   except Exception as e:
