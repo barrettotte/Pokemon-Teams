@@ -38,10 +38,11 @@ But, I did take some notes in [docs/](docs/), [app/](app/), [api/](api/), and [d
 
 
 ## Missing Features
-Features that I ended up stripping out because I got bored with the project.
+Features that I ended up leaving out because I got bored with the project.
 
 * Display random team on home page
 * Popup alerts for deleting, creating, etc.
+* Form validation
 * Better styling...lol
 * There's most definitely some UI bugs I missed
 

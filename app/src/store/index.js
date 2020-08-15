@@ -12,6 +12,7 @@ export default new Vuex.Store({
     rows: 0,
     currentPage: 1,
     perPage: 3,
+    activeTeam: null,
     showSpinner: false
   },
   getters: {
@@ -32,6 +33,9 @@ export default new Vuex.Store({
     },
     perPage(state){
       return state.perPage;
+    },
+    activeTeam(state){
+      return state.activeTeam;
     },
     showSpinner(state){
       return state.showSpinner;
@@ -55,6 +59,9 @@ export default new Vuex.Store({
     },
     SET_PER_PAGE(state, perPage){
       state.perPage = perPage;
+    },
+    SET_ACTIVE_TEAM(state, activeTeam){
+      state.activeTeam = activeTeam;
     },
     SET_SPINNER(state, spinner){
       state.showSpinner = spinner;
@@ -114,6 +121,18 @@ export default new Vuex.Store({
       await dispatch('simulateLoad');
       commit('SET_SPINNER', false);
     },
+
+    editTeam({commit, state}, {id}){
+      console.log('Editing activated for ' + id);
+      commit('SET_ACTIVE_TEAM', id);
+      if(state.activeTeam !== null){
+        // commit prior active team's stuff
+      }
+    },
+
+    // async saveTeam({dispatch, commit}, {id}){
+
+    // },
 
     async fetchTeams({dispatch, commit}){
       commit('SET_SPINNER', true);
