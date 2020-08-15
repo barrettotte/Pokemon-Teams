@@ -104,7 +104,7 @@ def get_random_team():
 def get_team(team_id):
   try:
     teams = db.bound_query('select * from pokemon.team where team_id = ? limit 1', [team_id])
-    if len(team) == 0:
+    if len(teams) == 0:
       return team_not_found(team_id)
 
     team = {'team_id': teams[0][0], 'label': teams[0][1], 'members': []}
@@ -112,7 +112,7 @@ def get_team(team_id):
       'select a.*, b.slug, c.name, c.dexno',
       'from pokemon.member a',
       'join pokemon.sprite b on a.sprite_id=b.sprite_id',
-      'join pokemon.pokdex c on a.dex_id=c.dex_id',
+      'join pokemon.pokedex c on a.dex_id=c.dex_id',
       'where a.team_id = ?',
       'limit 6'
     ]), [team['team_id']])
