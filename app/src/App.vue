@@ -19,6 +19,14 @@
     },
     computed: {
       ...mapGetters(['showSpinner'])
+    },
+    created(){
+      this.fillPokedex();
+    },
+    methods: {
+      async fillPokedex(){
+        await this.$store.dispatch('fetchPokedexEntries');
+      }
     }
   }
 </script>

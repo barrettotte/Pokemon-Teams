@@ -25,14 +25,6 @@
     },
     computed: {
       ...mapGetters(['pokedexEntries'])
-    },
-    mounted(){
-      this.fillPokedex();
-    },
-    methods: {
-      async fillPokedex(){
-        await this.$store.dispatch('fetchPokedexEntries');
-      }
     }
   }
 </script>

@@ -8,9 +8,7 @@
     <b-row class="justify-content-center">
       <b-card-group deck>
         <app-member v-for="member in exampleTeam" :key="member.member_id" 
-          :id="member.member_id" :dex_id="0" :sprite_id="0" :gender="member.gender" 
-          :level="member.level" :slot_idx="0" :nickname="''" :shiny="member.shiny"
-          :slug="member.slug" :name="member.name" :dexno="0">
+          :member="member" :team_id="0" :isActive="false">
         </app-member>
       </b-card-group>
     </b-row>
@@ -30,51 +28,81 @@
         exampleTeam: [
           {
             'member_id': 2,
-            'name': 'Lanturn',
-            'slug': 'lanturn',
+            'dex_id': 0,
+            'sprite_id': 0,
             'gender': 'F',
             'level': 88,
-            'shiny': false
+            'slot_idx': 0,
+            'nickname': null,
+            'shiny': false,
+            'slug': 'lanturn',
+            'name': 'Lanturn',
+            'dexno': 0
           },
           {
             'member_id': 3,
-            'name': 'Appletun',
-            'slug': 'appletun',
+            'dex_id': 0,
+            'sprite_id': 0,
             'gender': 'M',
             'level': 89,
-            'shiny': false
+            'slot_idx': 0,
+            'nickname': null,
+            'shiny': false,
+            'slug': 'appletun',
+            'name': 'Appletun',
+            'dexno': 0
           },
           {
             'member_id': 1,
-            'name': 'Centiskorch',
-            'slug': 'centiskorch',
+            'dex_id': 0,
+            'sprite_id': 0,
             'gender': 'M',
             'level': 90,
-            'shiny': false
+            'slot_idx': 0,
+            'nickname': null,
+            'shiny': false,
+            'slug': 'centiskorch',
+            'name': 'Centiskorch',
+            'dexno': 0
           },
           {
             'member_id': 4,
-            'name': 'Dragapult',
-            'slug': 'dragapult',
+            'dex_id': 0,
+            'sprite_id': 0,
             'gender': 'M',
             'level': 84,
-            'shiny': false
+            'slot_idx': 0,
+            'nickname': null,
+            'shiny': false,
+            'slug': 'dragapult',
+            'name': 'Dragapult',
+            'dexno': 0
           },
           {
             'member_id': 5,
-            'name': 'Hatterene',
-            'slug': 'hatterene',
+            'dex_id': 0,
+            'sprite_id': 0,
             'gender': 'F',
             'level': 77,
-            'shiny': false
+            'slot_idx': 0,
+            'nickname': null,
+            'shiny': false,
+            'slug': 'hatterene',
+            'name': 'Hatterene',
+            'dexno': 0
           },
           {
             'member_id': 6,
-            'name': 'Froslass',
-            'slug': 'froslass',
+            'dex_id': 0,
+            'sprite_id': 0,
             'gender': 'F',
             'level': 79,
-            'shiny': false
+            'slot_idx': 0,
+            'nickname': null,
+            'shiny': false,
+            'slug': 'froslass',
+            'name': 'Froslass',
+            'dexno': 0
           }
         ]
       }

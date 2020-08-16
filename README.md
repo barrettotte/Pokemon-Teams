@@ -42,7 +42,9 @@ Features that I ended up leaving out because I got bored with the project.
 
 * Display random team on home page
 * Popup alerts for deleting, creating, etc.
-* Form validation
+* Alternate sprite forms - Regional variants, type variants, etc.
+* Full modal for team member (missing sprite preview, sprite form, etc.)
+* Form validation within modal
 * Better styling...lol
 * There's most definitely some UI bugs I missed
 

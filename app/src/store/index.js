@@ -104,6 +104,8 @@ export default new Vuex.Store({
 
       await dispatch('simulateLoad');
       commit('SET_SPINNER', false);
+
+      dispatch('editTeam', {id: new_id});
       return new_id;
     },
 
@@ -114,8 +116,6 @@ export default new Vuex.Store({
       
       const deleteIdx = teams.map(team => team.team_id).indexOf(id);
       teams.splice(deleteIdx, 1);
-      console.log('deleting ' + deleteIdx)
-
       dispatch('updatePagination', {data: teams, currentPage: state.currentPage, perPage: state.perPage});
 
       await dispatch('simulateLoad');
@@ -123,10 +123,9 @@ export default new Vuex.Store({
     },
 
     editTeam({commit, state}, {id}){
-      console.log('Editing activated for ' + id);
       commit('SET_ACTIVE_TEAM', id);
       if(state.activeTeam !== null){
-        // commit prior active team's stuff
+        // TODO: commit prior active team's stuff
       }
     },
 

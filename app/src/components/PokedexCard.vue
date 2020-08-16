@@ -2,10 +2,10 @@
   <b-card bg-variant="dark" text-variant="white" class="my-2 mx-2 dex-card">
     <div class="dex-body">
       <div class="dex-name">
-        <a :href="getPokemonDb(slug)" target="_blank">{{name}}</a>
+        <a :href="getPokemonDb()" target="_blank">{{name}}</a>
       </div>
-      <a :href="getPokemonDb(slug)" target="_blank">
-        <b-card-img-lazy :src="getSprite(slug)" :alt="slug" bottom 
+      <a :href="getPokemonDb()" target="_blank">
+        <b-card-img-lazy :src="getSprite()" :alt="slug" bottom 
           blank-color='#343a40' blank-width="68px" blank-height="56px">
         </b-card-img-lazy>
       </a>
@@ -19,11 +19,11 @@
     name: 'PokedexCard',
     props: ['name', 'dexno', 'slug'],
     methods: {
-      getSprite(slug){
-        return `https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/${slug}.png`
+      getSprite(){
+        return `https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/${this.slug}.png`;
       },
-      getPokemonDb(slug){
-        return `https://pokemondb.net/pokedex/${slug}`
+      getPokemonDb(){
+        return `https://pokemondb.net/pokedex/${this.slug}`;
       }
     }
   }
