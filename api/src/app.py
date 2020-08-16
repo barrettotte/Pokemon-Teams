@@ -53,12 +53,12 @@ def api_index():
 def get_pokedex():
   try:
     entries = db.query(' '.join((
-      'select a.dexno, a.name, b.slug',
+      'select a.dex_id, a.dexno, a.name, b.slug',
       'from pokemon.pokedex a',
       'join pokemon.sprite b on a.dex_id=b.dex_id',
       "  and b.form='$'"
     )));
-    return query_resp([{'dexno': x[0], 'name': x[1], 'slug': x[2]} for x in entries])
+    return query_resp([{'dex_id': x[0], 'dexno': x[1], 'name': x[2], 'slug': x[3]} for x in entries])
   except Exception as e:
     return error_resp(e)
 
@@ -73,6 +73,18 @@ def get_dex_sprites(dex_id):
       'where a.dex_id = ?'
     )), [dex_id])
     return query_resp([{'dexno': x[0], 'slug': x[1], 'has_female': x[2] == '1'} for x in sprites])
+  except Exception as e:
+    return error_resp(e)
+
+
+@app.route('/api/v1/sprites', methods=['GET'])
+def get_sprites():
+  try:
+    sprites = db.query(' '.join([
+      'select a.sprite_id, a.dex_id, a.form, a.has_female, a.slug',
+      'from pokemon.sprite a'
+    ]))
+    return query_resp([{'sprite_id': x[0], 'dex_id': x[1], 'form': x[2], 'has_female': x[3], 'slug': x[4]} for x in sprites])
   except Exception as e:
     return error_resp(e)
 

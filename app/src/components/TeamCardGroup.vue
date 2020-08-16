@@ -4,10 +4,8 @@
   >
     <b-row class="justify-content-center">
       <div class="team-label">
-        <b-form-input v-if="isActive" v-model="label"></b-form-input>
-        <div v-else>
-          {{label}} | {{id}}
-        </div>
+        <b-form-input v-if="isActive" v-model="form.label"></b-form-input>
+        <div v-else>{{label}}</div>
       </div>
     </b-row>
     <b-row class="justify-content-center">
@@ -38,25 +36,33 @@
     computed: {
       ...mapGetters(['activeTeam']),
       isActive(){
-        return this.id === this.activeTeam
+        return this.id === this.activeTeam;
+      }
+    },
+    data(){
+      return {
+        form: {
+          label: this.label || 'Team'
+        }
       }
     },
     methods: {
-      editTeam(){
-        this.$store.dispatch('editTeam', {id: this.id});
+      async editTeam(){
+        await this.$store.dispatch('editTeam', {teamId: this.id});
       },
       async deleteTeam(){
-        await this.$store.dispatch('deleteTeam', {id: this.id});
+        await this.$store.dispatch('deleteTeam', {teamId: this.id});
       },
-      saveTeam(){
-        console.log('SAVED!');
-        // TODO: dispatch saveTeam()
+      async saveTeam(){
+        await this.$store.dispatch('saveTeam', {teamId: this.id, label: this.form.label, members: this.members});
       },
       // fill empty slots with blank team members
       paddedMembers(){
         if(this.members.length < 6){
           const filled = this.members.map(m => m.slot);
-          var blankId = 0; // avoid duplicate keys in v-for
+          const minId = Math.min(...this.members.map(m => m.member_id));
+          var blankId = (minId > 0) ? 0 : minId;
+
           for(var i = 0; i < 6; i++){
             if(!filled.includes(i)){
               this.members.push(this.createBlankMember(--blankId, i));

@@ -46,13 +46,7 @@
         perPage: 3
       }
     },
-    mounted(){
-      this.fillTeams();
-    },
     methods: {
-      async fillTeams(){
-        await this.$store.dispatch('fetchTeams');
-      },
       async addTeam(){
         await this.$store.dispatch('addTeam', {label: 'New Team'});
         await this.paginate(this.currentPage);

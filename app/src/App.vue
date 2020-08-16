@@ -21,11 +21,11 @@
       ...mapGetters(['showSpinner'])
     },
     created(){
-      this.fillPokedex();
+      this.fillDataStore();
     },
     methods: {
-      async fillPokedex(){
-        await this.$store.dispatch('fetchPokedexEntries');
+      async fillDataStore(){
+        await this.$store.dispatch('populateDataStore');
       }
     }
   }

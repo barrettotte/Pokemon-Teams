@@ -7,6 +7,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     pokedexEntries: [],
+    sprites: [],
     teams: [],
     pageTeams: [],
     rows: 0,
@@ -21,6 +22,9 @@ export default new Vuex.Store({
     },
     teams(state){
       return state.teams;
+    },
+    sprites(state){
+      return state.sprites;
     },
     rows(state){
       return state.rows;
@@ -47,6 +51,9 @@ export default new Vuex.Store({
     },
     SET_TEAMS(state, teams){
       state.teams = teams;
+    },
+    SET_SPRITES(state, sprites){
+      state.sprites = sprites;
     },
     SET_ROWS(state, rows){
       state.rows = rows;
@@ -77,13 +84,25 @@ export default new Vuex.Store({
     },
 
     async requestPokedex(){
-      // TODO: strip url into config/env var
       const res = await axios.get('http://127.0.0.1:8020/api/v1/pokedex/'); 
       return res['data']['data'];
     },
 
+    async requestSprites(){
+      const res = await axios.get('http://127.0.0.1:8020/api/v1/sprites/'); 
+      const sprites = res['data']['data'];
+      return sprites;
+    },
+
+    fetchSprite({state}, {dexId, form}){
+      return state.sprites.find(s => s.form === form && s.dex_id === dexId);
+    },
+
+    fetchPokedexEntry({state}, {dexno}){
+      return state.pokedexEntries[dexno - 1];
+    },
+
     async requestTeams(){
-      // TODO: strip url into config/env var
       const res = await axios.get('http://127.0.0.1:8020/api/v1/teams/'); 
       const teams = res['data']['data'].sort((a,b) => a.team_id - b.team_id).reverse();
       for(var i = 0; i < teams.length; i++){
@@ -96,25 +115,24 @@ export default new Vuex.Store({
     async addTeam({commit, dispatch, state}, {label}){
       commit('SET_SPINNER', true);
       const res = await axios.post('http://127.0.0.1:8020/api/v1/teams/', {label: label});
-      const new_id = res['data']['data']['team_id'];
+      const newId = res['data']['data']['team_id'];
       const teams = state.teams;
 
-      teams.unshift({label: label, team_id: new_id, members: []});
+      teams.unshift({label: label, team_id: newId, members: []});
       dispatch('updatePagination', {data: teams, currentPage: state.currentPage, perPage: state.perPage});
 
       await dispatch('simulateLoad');
       commit('SET_SPINNER', false);
-
-      dispatch('editTeam', {id: new_id});
-      return new_id;
+      commit('SET_ACTIVE_TEAM', newId);
+      return newId;
     },
 
-    async deleteTeam({commit, dispatch, state}, {id}){
+    async deleteTeam({commit, dispatch, state}, {teamId}){
       commit('SET_SPINNER', true);
-      await axios.delete(`http://127.0.0.1:8020/api/v1/teams/${id}`);
+      await axios.delete(`http://127.0.0.1:8020/api/v1/teams/${teamId}`);
       const teams = state.teams;
       
-      const deleteIdx = teams.map(team => team.team_id).indexOf(id);
+      const deleteIdx = teams.map(team => team.team_id).indexOf(teamId);
       teams.splice(deleteIdx, 1);
       dispatch('updatePagination', {data: teams, currentPage: state.currentPage, perPage: state.perPage});
 
@@ -122,34 +140,74 @@ export default new Vuex.Store({
       commit('SET_SPINNER', false);
     },
 
-    editTeam({commit, state}, {id}){
-      commit('SET_ACTIVE_TEAM', id);
+    editTeam({commit, state}, {teamId}){
       if(state.activeTeam !== null){
         // TODO: commit prior active team's stuff
       }
+      commit('SET_ACTIVE_TEAM', teamId);
     },
 
-    // async saveTeam({dispatch, commit}, {id}){
+    async saveTeam({commit, dispatch, state}, {teamId, label, members}){
+      commit('SET_SPINNER', true);
+      await axios.put(`http://127.0.0.1:8020/api/v1/teams/${teamId}/`, {label});
 
-    // },
+      const teamIdx = state.teams.map(team => team.team_id).indexOf(teamId);
+      state.teams[teamIdx].label = label;
+      state.teams[teamIdx].members = members.filter(mbr => mbr.member_id > 0);
+
+      commit('SET_ACTIVE_TEAM', null);
+      await dispatch('simulateLoad');
+      commit('SET_SPINNER', false);
+    },
+
+    async addMember({commit, dispatch}, {teamId, memberData}){
+      commit('SET_SPINNER', true);
+      const res = await axios.post(`http://127.0.0.1:8020/api/v1/teams/${teamId}/members`, memberData);
+      const newId = res['data']['data']['member_id'];
+      
+      await dispatch('simulateLoad');
+      commit('SET_SPINNER', false);
+      return newId;
+    },
+
+    async deleteMember({commit, dispatch, state}, {teamId, memberId, slotIdx}){
+      commit('SET_SPINNER', true);
+      await axios.delete(`http://127.0.0.1:8020/api/v1/teams/${teamId}/members/${memberId}`);
+
+      const teamIdx = state.teams.map(team => team.team_id).indexOf(teamId);
+      state.teams[teamIdx].members = state.teams[teamIdx].members.filter(mbr => mbr.slot !== slotIdx);
+
+      await dispatch('simulateLoad');
+      commit('SET_SPINNER', false);
+    },
+
+    async populateDataStore({dispatch, commit}){
+      commit('SET_SPINNER', true);
+      await dispatch('fetchPokedexEntries');
+      await dispatch('fetchTeams');
+      await dispatch('fetchSprites');
+      commit('SET_SPINNER', false);
+    },
+
+    async fetchSprites({dispatch, commit}){
+      const res = await dispatch('requestSprites');
+      await dispatch('simulateLoad');
+      commit('SET_SPRITES', res);
+    },
 
     async fetchTeams({dispatch, commit}){
-      commit('SET_SPINNER', true);
       const res = await dispatch('requestTeams');
       await dispatch('simulateLoad');
       commit('SET_TEAMS', res);
       commit('SET_ROWS', res.length);
       commit('SET_PAGE_TEAMS', res.slice(0, 3));
       commit('SET_ROWS', res.length);
-      commit('SET_SPINNER', false);
     },
 
     async fetchPokedexEntries({dispatch, commit}){
-      commit('SET_SPINNER', true);
       const res = await dispatch('requestPokedex');
       await dispatch('simulateLoad');
       commit('SET_POKEDEX_ENTRIES', res);
-      commit('SET_SPINNER', false);
     },
 
     async paginate({commit, state}, {currentPage, perPage}){
