@@ -11,7 +11,7 @@
         blank-color='#343a40' blank-width="68px" blank-height="56px">
       </b-card-img-lazy>
       <b-button-group v-if="isActive" class="edit-btn-group">
-        <b-button class="btn-edit" block> <!-- @click="$bvModal.show(modalId)" -->
+        <b-button class="btn-edit" block @click="$bvModal.show(modalId)">
           <b-icon icon="pencil" class="icon-edit float-left mx-2" scale="0.80"></b-icon>
         </b-button>
         <b-button class="btn-delete" block @click="deleteMember()">
@@ -35,7 +35,7 @@
       <b-container class="member-modal">
         <b-row class="justify-content-center">
           <b-form @submit.stop.prevent="handleSubmit">
-            <!-- A Pokemon lookup would be nice ... -->
+            <!-- A Pokemon lookup would have been nice ... -->
             <b-form-group label="Pokedex Number:">
               <b-form-input v-model="form.dexno" type="number" required min="1" :max="getPokedexSize()"></b-form-input>
             </b-form-group>
@@ -55,7 +55,9 @@
         </b-row>
         <b-row class="justify-content-center modal-buttons">
           <b-button variant="danger" class="btn-modal mx-4" @click="leaveForm()">Cancel</b-button>
-          <b-button variant="primary" class="btn-modal mx-4" @click="createMember()">Create</b-button>
+          <b-button variant="primary" class="btn-modal mx-4" @click="submitForm()">
+            {{isFull() ? 'Update' : 'Create'}}
+          </b-button>
         </b-row>
       </b-container>
     </b-modal>
@@ -113,13 +115,13 @@
         return `https://pokemondb.net/pokedex/${this.member.slug}`;
       },
       isFull(){
-        return this.member.member_id > 0;
+        return this.member['member_id'] > 0;
       },
-      async createMember(){
+      async submitForm(){
         const dexEntry = await this.$store.dispatch('fetchPokedexEntry', {dexno: this.form['dexno']});
         const sprite = await this.$store.dispatch('fetchSprite', {dexId: dexEntry['dex_id'], form: '$'});
 
-        const newMember = {
+        const memberData = {
           'dex_id': dexEntry['dex_id'],
           'sprite_id': sprite['sprite_id'],
           'gender': this.form['gender'],
@@ -131,19 +133,33 @@
           'name': dexEntry['name'],
           'dexno': this.form['dexno']
         };
-        const newId = await this.$store.dispatch('addMember', {teamId: this.teamId, memberData: newMember});
-        this.member['member_id'] = newId;
-        this.member['dex_id'] = newMember['dex_id'];
-        this.member['sprite_id'] = newMember['sprite_id'];
-        this.member['gender'] = newMember['gender'];
-        this.member['level'] = newMember['level'];
-        this.member['slot'] = newMember['slot'];
-        this.member['nickname'] = newMember['nickname'];
-        this.member['shiny'] = newMember['shiny'];
-        this.member['slug'] = newMember['slug'];
-        this.member['name'] = newMember['name'];
-        this.member['dexno'] = newMember['dexno'];
+        this.refreshMember(memberData);
+        if(this.isFull()){
+          await this.updateMember(memberData);
+        } else{
+          await this.createMember(memberData);
+        }
         this.leaveForm();
+      },
+      refreshMember(memberData){
+        this.member['dex_id'] = memberData['dex_id'];
+        this.member['sprite_id'] = memberData['sprite_id'];
+        this.member['gender'] = memberData['gender'];
+        this.member['level'] = memberData['level'];
+        this.member['slot'] = memberData['slot'];
+        this.member['nickname'] = memberData['nickname'];
+        this.member['shiny'] = memberData['shiny'];
+        this.member['slug'] = memberData['slug'];
+        this.member['name'] = memberData['name'];
+        this.member['dexno'] = memberData['dexno'];
+      },
+      async updateMember(memberData){
+        const payload = {teamId: this.teamId, memberId: this.member['member_id'], memberData: memberData};
+        await this.$store.dispatch('updateMember', payload);
+      },
+      async createMember(memberData){
+        const newId = await this.$store.dispatch('addMember', {teamId: this.teamId, memberData: memberData});
+        this.member['member_id'] = newId;
       },
       async deleteMember(){
         const payload = {teamId: this.teamId, memberId: this.member['member_id'], slotIdx: this.member['slot']};

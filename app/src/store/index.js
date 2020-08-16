@@ -170,6 +170,13 @@ export default new Vuex.Store({
       return newId;
     },
 
+    async updateMember({commit, dispatch}, {teamId, memberId, memberData}){
+      commit('SET_SPINNER', true);
+      await axios.put(`http://127.0.0.1:8020/api/v1/teams/${teamId}/members/${memberId}`, memberData);
+      await dispatch('simulateLoad');
+      commit('SET_SPINNER', false);
+    },
+
     async deleteMember({commit, dispatch, state}, {teamId, memberId, slotIdx}){
       commit('SET_SPINNER', true);
       await axios.delete(`http://127.0.0.1:8020/api/v1/teams/${teamId}/members/${memberId}`);
