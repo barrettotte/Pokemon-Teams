@@ -14,7 +14,7 @@ An introductory VueJS app to record Pokemon teams used across various games and/
 This was made to mess around with VueJS and is obviously not a production level application.
 For sake of simplicity, this runs locally for a single user. 
 
-**I really just wanted to focus on learning Vue with this project.**
+I also got kind of bored of the project towards the end. So, I cut some stuff out...see below.
 
 
 ## Credit
@@ -48,6 +48,8 @@ Features that I ended up leaving out because I got bored with the project.
 * Form validation within modal
 * Better styling...lol
 * There's most definitely some UI bugs I missed
+* Docker for frontend
+* Docker compose
 
 
 ## References

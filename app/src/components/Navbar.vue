@@ -5,7 +5,7 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/">Home</b-nav-item>
+          <b-nav-item exact to="/">Home</b-nav-item>
           <b-nav-item to="/teams">Teams</b-nav-item>
           <b-nav-item to="/pokedex">Pokedex</b-nav-item>
           <b-nav-item to="/about">About</b-nav-item>
@@ -50,19 +50,15 @@
     a {
       font-weight: bold;
       color: #ffffff;
-
-      &.router-link-exact-active {
-        color: #42b983;
-      }
     }
   }
   
-  #nav a.router-link-exact-active{
-    color: rgb(216, 216, 216);
+  .router-link-active{
+    color: white !important;
   }
 
   .nav-link{
-     border-bottom: 2px solid rgba(0,0,0,0);
+    border-bottom: 2px solid rgba(0,0,0,0);
   }
 
   .nav-link:hover{

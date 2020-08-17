@@ -15,7 +15,7 @@ local_run(){
 }
 
 docker_run(){
-  sudo docker build -t $image $api_src && \
+  sudo docker build -t $image $app_src && \
   sudo docker run -d --env-file $dotenv -p $port:$port --rm --name $cont_name $image
   # (add -it for interactive)
 }
