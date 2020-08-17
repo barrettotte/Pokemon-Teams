@@ -12,6 +12,7 @@ COPY --from=build-stage /usr/src/app/dist /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
+# TODO: THIS HAS NOT BEEN TESTED
 
 # docker build -t barrettotte/pokemon-teams-app .
 # docker run -it -p 8021:80 --rm --name pokemon-teams-app barrettotte/pokemon-teams-app

@@ -84,12 +84,12 @@ export default new Vuex.Store({
     },
 
     async requestPokedex(){
-      const res = await axios.get('http://127.0.0.1:8020/api/v1/pokedex/'); 
+      const res = await axios.get(`${process.env.VUE_APP_API_ROOT}/api/v1/pokedex/`); 
       return res['data']['data'];
     },
 
     async requestSprites(){
-      const res = await axios.get('http://127.0.0.1:8020/api/v1/sprites/'); 
+      const res = await axios.get(`${process.env.VUE_APP_API_ROOT}/api/v1/sprites/`); 
       const sprites = res['data']['data'];
       return sprites;
     },
@@ -103,10 +103,10 @@ export default new Vuex.Store({
     },
 
     async requestTeams(){
-      const res = await axios.get('http://127.0.0.1:8020/api/v1/teams/'); 
+      const res = await axios.get(`${process.env.VUE_APP_API_ROOT}/api/v1/teams/`); 
       const teams = res['data']['data'].sort((a,b) => a.team_id - b.team_id).reverse();
       for(var i = 0; i < teams.length; i++){
-        const membersRes = await axios.get(`http://127.0.0.1:8020/api/v1/teams/${teams[i]['team_id']}`);
+        const membersRes = await axios.get(`${process.env.VUE_APP_API_ROOT}/api/v1/teams/${teams[i]['team_id']}`);
         teams[i].members = membersRes['data']['data']['members'].sort((a,b) => a.slot - b.slot);
       }
       return teams;
@@ -114,7 +114,7 @@ export default new Vuex.Store({
 
     async addTeam({commit, dispatch, state}, {label}){
       commit('SET_SPINNER', true);
-      const res = await axios.post('http://127.0.0.1:8020/api/v1/teams/', {label: label});
+      const res = await axios.post(`${process.env.VUE_APP_API_ROOT}/api/v1/teams/`, {label: label});
       const newId = res['data']['data']['team_id'];
       const teams = state.teams;
 
@@ -129,7 +129,7 @@ export default new Vuex.Store({
 
     async deleteTeam({commit, dispatch, state}, {teamId}){
       commit('SET_SPINNER', true);
-      await axios.delete(`http://127.0.0.1:8020/api/v1/teams/${teamId}`);
+      await axios.delete(`${process.env.VUE_APP_API_ROOT}/api/v1/teams/${teamId}`);
       const teams = state.teams;
       
       const deleteIdx = teams.map(team => team.team_id).indexOf(teamId);
@@ -149,7 +149,7 @@ export default new Vuex.Store({
 
     async saveTeam({commit, dispatch, state}, {teamId, label, members}){
       commit('SET_SPINNER', true);
-      await axios.put(`http://127.0.0.1:8020/api/v1/teams/${teamId}/`, {label});
+      await axios.put(`${process.env.VUE_APP_API_ROOT}/api/v1/teams/${teamId}/`, {label});
 
       const teamIdx = state.teams.map(team => team.team_id).indexOf(teamId);
       state.teams[teamIdx].label = label;
@@ -162,7 +162,7 @@ export default new Vuex.Store({
 
     async addMember({commit, dispatch}, {teamId, memberData}){
       commit('SET_SPINNER', true);
-      const res = await axios.post(`http://127.0.0.1:8020/api/v1/teams/${teamId}/members`, memberData);
+      const res = await axios.post(`${process.env.VUE_APP_API_ROOT}/api/v1/teams/${teamId}/members`, memberData);
       const newId = res['data']['data']['member_id'];
       
       await dispatch('simulateLoad');
@@ -172,14 +172,14 @@ export default new Vuex.Store({
 
     async updateMember({commit, dispatch}, {teamId, memberId, memberData}){
       commit('SET_SPINNER', true);
-      await axios.put(`http://127.0.0.1:8020/api/v1/teams/${teamId}/members/${memberId}`, memberData);
+      await axios.put(`${process.env.VUE_APP_API_ROOT}/api/v1/teams/${teamId}/members/${memberId}`, memberData);
       await dispatch('simulateLoad');
       commit('SET_SPINNER', false);
     },
 
     async deleteMember({commit, dispatch, state}, {teamId, memberId, slotIdx}){
       commit('SET_SPINNER', true);
-      await axios.delete(`http://127.0.0.1:8020/api/v1/teams/${teamId}/members/${memberId}`);
+      await axios.delete(`${process.env.VUE_APP_API_ROOT}/api/v1/teams/${teamId}/members/${memberId}`);
 
       const teamIdx = state.teams.map(team => team.team_id).indexOf(teamId);
       state.teams[teamIdx].members = state.teams[teamIdx].members.filter(mbr => mbr.slot !== slotIdx);

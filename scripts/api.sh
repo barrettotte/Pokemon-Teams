@@ -3,7 +3,7 @@
 # Usage: ./scripts/api.sh
 
 # Configuration
-dotenv="$(pwd)/dev.env"
+dotenv="$(pwd)/api/dev.env"
 image='barrettotte/pokemon-teams-api'
 cont_name='pokemon-teams-api'
 port=8020
