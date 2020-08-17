@@ -3,6 +3,12 @@
 An introductory VueJS app to record Pokemon teams used across various games and/or playthroughs.
 
 
+![Teams](https://raw.githubusercontent.com/barrettotte/Pokemon-Teams/master/docs/screenshots/home.png?token=ADXGMX3F3M4EAXKFQ6KMJZS7HHQRU)
+More screenshots located in [docs/screenshots](https://github.com/barrettotte/Pokemon-Teams/tree/master/docs/screenshots)
+
+
+
+
 ## Project Goals
 * Introductory Vue Project
 * Routing with vue-router
@@ -12,7 +18,8 @@ An introductory VueJS app to record Pokemon teams used across various games and/
 * Simple Python backend (Flask) with local Postgres DB on Pi
 
 This was made to mess around with VueJS and is obviously not a production level application.
-For sake of simplicity, this runs locally for a single user. 
+For sake of simplicity, this runs locally for a single user.
+I did not deploy it anywhere, but I took a couple screenshots so I could remember what it looked like myself.
 
 I also got kind of bored of the project towards the end. So, I cut some stuff out...see below.
 
